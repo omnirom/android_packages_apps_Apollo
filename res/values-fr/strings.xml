@@ -14,7 +14,7 @@
      limitations under the License.
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Apollo</string>
+    <string name="app_name">Musique</string>
     <string name="page_recent">Récents</string>
     <string name="page_artists">Artistes</string>
     <string name="page_albums">Albums</string>

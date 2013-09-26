@@ -15,7 +15,7 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">Apollo</string>
+    <string name="app_name">Musik</string>
 
     <!-- Page titles -->
     <string name="page_recent">Kürzlich gehört</string>
