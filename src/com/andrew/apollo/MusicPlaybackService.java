@@ -536,6 +536,24 @@ public class MusicPlaybackService extends Service {
         // Initialize the notification helper
         mNotificationHelper = new NotificationHelper(this);
 
+        // delay until external storage is available
+        // at least try it :)
+        if (ImageCache.needToWaitForExternalStorage(this)){
+            final int maxRetryCount = 10;
+            int i = 0;
+            while (true){
+                try {
+                    Thread.sleep(1000);
+                } catch(InterruptedException e){
+                }
+                if (!ImageCache.needToWaitForExternalStorage(this)){
+                    break;
+                }
+                if (++i > maxRetryCount){
+                    break;
+                }
+            }
+        }
         // Initialize the image fetcher
         mImageFetcher = ImageFetcher.getInstance(this);
         // Initialize the image cache
