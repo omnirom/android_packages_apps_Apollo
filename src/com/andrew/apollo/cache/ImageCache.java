@@ -158,6 +158,7 @@ public final class ImageCache {
         if (mDiskCache == null || mDiskCache.isClosed()) {
             File diskCacheDir = getDiskCacheDir(context, TAG);
             if (diskCacheDir != null) {
+                Log.d(TAG, "setup ImageCache at " + diskCacheDir.getPath());
                 if (!diskCacheDir.exists()) {
                     diskCacheDir.mkdirs();
                 }
@@ -168,6 +169,8 @@ public final class ImageCache {
                         diskCacheDir = null;
                     }
                 }
+            } else {
+                Log.e(TAG, "failed to setup ImageCache");
             }
         }
     }
@@ -625,11 +628,19 @@ public final class ImageCache {
      * @return The cache directory
      */
     public static final File getDiskCacheDir(final Context context, final String uniqueName) {
-        final String cachePath = Environment.MEDIA_MOUNTED.equals(Environment
-                .getExternalStorageState()) || !isExternalStorageRemovable() ? getExternalCacheDir(
-                context).getPath() : context.getCacheDir().getPath();
+        File cacheDirRoot = getExternalCacheDir(context);
+        if (cacheDirRoot == null){
+            // fallback if everything goes wrong - e.g. external storage still
+            // not mounted at this point
+            cacheDirRoot = context.getCacheDir();
+        }
 
+        String cachePath = cacheDirRoot.getPath();
         return new File(cachePath + File.separator + uniqueName);
+    }
+
+    public static final boolean needToWaitForExternalStorage(final Context context) {
+        return context.getExternalCacheDir() == null;
     }
 
     /**
@@ -647,6 +658,7 @@ public final class ImageCache {
      *
      * @param context The {@link Context} to use
      * @return The external cache directory
+     * can return null if external storage is not mounted
      */
     public static final File getExternalCacheDir(final Context context) {
         return context.getExternalCacheDir();
