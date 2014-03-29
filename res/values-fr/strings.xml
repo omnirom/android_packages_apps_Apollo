@@ -14,7 +14,6 @@
      limitations under the License.
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Musique</string>
     <string name="page_recent">Récents</string>
     <string name="page_artists">Artistes</string>
     <string name="page_albums">Albums</string>
@@ -80,6 +79,7 @@
     <string name="context_menu_open_in_play_store">Ouvrir dans le Play Store</string>
     <string name="context_menu_remove_from_recent">Supprimer des récents</string>
     <string name="context_menu_use_as_ringtone">Utiliser comme sonnerie</string>
+    <string name="context_menu_remove_from_playlist">Retirer de la liste</string>
     <string name="accessibility_play">Lecture</string>
     <string name="accessibility_pause">Pause</string>
     <string name="accessibility_next">Suivant</string>
@@ -116,14 +116,10 @@
     <string name="now_listening_to">#NowPlaying <xliff:g id="title">%1$s</xliff:g> par <xliff:g id="artist">%2$s</xliff:g> #Apollo</string>
     <string name="share_track_using">Partager le titre via\u00A0:</string>
     <string name="color_picker_title">Charte de couleur</string>
-    <string name="hex">#</string>
     <string name="current_color">Courante</string>
     <string name="new_color">Nouvelle</string>
-    <string name="app_widget_small">Apollo: 4x1</string>
-    <string name="app_widget_large">Apollo: 4x2</string>
     <string name="app_widget_large_alt">Apollo: 4x2 (Alternatif)</string>
     <string name="app_widget_recent">Apollo: Écoutés récemment</string>
-    <string name="app_widget_text_separator">-</string>
     <string name="no_effects_for_you">L\'égaliseur ne peut pas être ouvert.</string>
     <string name="empty_music">Utilisez un câble USB pour copier de la musique depuis votre ordinateur vers votre appareil.</string>
     <string name="empty_last_added">Les titres ajoutés au cours du dernier mois seront affichés ici.</string>
