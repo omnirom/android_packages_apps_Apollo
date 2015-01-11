@@ -119,4 +119,8 @@
     <!-- Color scheme dialog -->
     <dimen name="color_scheme_dialog_row_padding">8.0dip</dimen>
 
+     <!-- Size of notification text (see EventContent) -->
+    <dimen name="notification_text_size">14dp</dimen>
+    <!-- Size of notification text titles (see EventContent.Title) -->
+    <dimen name="notification_title_text_size">18dp</dimen>
 </resources>

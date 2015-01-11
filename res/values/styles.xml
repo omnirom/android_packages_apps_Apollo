@@ -15,18 +15,34 @@
  -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Main Holo -->
-    <style name="Apollo.Theme.Dark" parent="@android:style/Theme.Holo">
+    <!-- Main Material -->
+    <style name="Apollo.Theme.Dark" parent="@android:style/Theme.Material.Light.DarkActionBar">
         <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionOverFlowButton</item>
     </style>
 
-    <!-- Main Holo light -->
-    <style name="Apollo.Theme.Light" parent="@android:style/Theme.Holo.Light">
+    <!-- Main Material light -->
+    <style name="Apollo.Theme.Light" parent="@android:style/Theme.Material.Light.DarkActionBar">
         <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionOverFlowButton</item>
+    </style>
+
+    <!-- Overflow -->
+    <style name="ActionOverFlowButton" parent="@android:style/Widget.Material.ActionButton.Overflow">
+        <item name="android:src">@drawable/menu_button_light</item>
+        <item name="android:minWidth">0dip</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingRight">8dip</item>
     </style>
 
     <!-- Shortcut Activity theme -->
-    <style name="Theme.Transparent" parent="@android:style/Theme.Holo.NoActionBar">
+    <style name="Theme.Transparent" parent="@android:style/Theme.Material.Light.NoActionBar">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowBackground">@color/transparent</item>
         <item name="android:windowContentOverlay">@null</item>
@@ -55,23 +71,23 @@
     </style>
 
     <style name="NotificationAction.Previous" parent="@style/NotificationAction">
-        <item name="android:src">@drawable/btn_playback_previous</item>
+        <item name="android:src">@drawable/btn_playback_previous_black</item>
         <item name="android:visibility">gone</item>
         <item name="android:contentDescription">@string/accessibility_prev</item>
     </style>
 
     <style name="NotificationAction.Play" parent="@style/NotificationAction">
-        <item name="android:src">@drawable/btn_playback_play</item>
+        <item name="android:src">@drawable/btn_playback_play_black</item>
         <item name="android:contentDescription">@string/accessibility_play</item>
     </style>
 
     <style name="NotificationAction.Next" parent="@style/NotificationAction">
-        <item name="android:src">@drawable/btn_playback_next</item>
+        <item name="android:src">@drawable/btn_playback_next_black</item>
         <item name="android:contentDescription">@string/accessibility_next</item>
     </style>
 
     <style name="NotificationAction.Collapse" parent="@style/NotificationAction">
-        <item name="android:src">@drawable/btn_notification_collapse</item>
+        <item name="android:src">@drawable/btn_notification_collapse_black</item>
     </style>
 
     <!-- Bottom Action Bar TextViews -->
@@ -123,4 +139,24 @@
         <item name="android:contentDescription">@string/accessibility_repeat</item>
     </style>
 
+    <style name="TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/black_54p</item>
+    </style>
+
+    <!-- Status Bar Styles -->
+    <style name="TextAppearance.StatusBar">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <!-- Notification content styles -->
+    <style name="TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">@dimen/notification_text_size</item>
+        <item name="android:textColor">@color/black_54p</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Title">
+        <item name="android:textSize">@dimen/notification_title_text_size</item>
+        <item name="android:textColor">@color/black_87p</item>
+    </style>
 </resources>
