@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:singleLine="true"
-            android:textSize="@dimen/text_size_medium" />
+            android:textSize="@dimen/text_size_large" />
 
         <TextView
             android:id="@+id/action_bar_subtitle"
