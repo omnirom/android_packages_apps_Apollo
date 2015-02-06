@@ -81,7 +81,7 @@
     <dimen name="audio_player_header_padding_right">16.0dip</dimen>
     <dimen name="audio_player_switch_padding">10.0dip</dimen>
     <dimen name="audio_player_time_width">52.0dip</dimen>
-    <dimen name="audio_player_seek_bar_margin_bottom">2.0dip</dimen>
+    <dimen name="audio_player_seek_bar_margin_bottom">5.0dip</dimen>
     <dimen name="audio_player_controls_end_button_width">50.0dip</dimen>
     <dimen name="audio_player_controls_end_button_height">50.0dip</dimen>
     <dimen name="audio_player_controls_main_button_width">58.0dip</dimen>
@@ -107,9 +107,6 @@
     <dimen name="app_widget_padding">0.0dip</dimen>
     <dimen name="app_widget_bottom_margin">4.0dip</dimen>
 
-    <!-- Shadow height -->
-    <dimen name="shadow_height">5.0dip</dimen>
-
     <!-- Colorstrip -->
     <dimen name="colorstrip_height">2.0dip</dimen>
 
@@ -123,4 +120,6 @@
     <dimen name="notification_text_size">14dp</dimen>
     <!-- Size of notification text titles (see EventContent.Title) -->
     <dimen name="notification_title_text_size">18dp</dimen>
+
+    <dimen name="header_footer_elevation">5dp</dimen>
 </resources>

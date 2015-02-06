@@ -18,14 +18,15 @@
     android:id="@+id/grid_base_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="@dimen/list_preferred_item_padding" >
+    android:paddingLeft="@dimen/list_preferred_item_padding"
+    android:paddingRight="@dimen/list_preferred_item_padding" >
 
     <TextView
         android:id="@+id/empty"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical|center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="@dimen/text_size_large"
         android:textStyle="bold"
         android:visibility="gone" />
@@ -37,10 +38,7 @@
         android:cacheColorHint="@color/transparent"
         android:drawSelectorOnTop="true"
         android:fadingEdge="vertical"
-        android:fastScrollEnabled="true"
         android:horizontalSpacing="@dimen/grid_item_spacing"
-        android:scrollbarStyle="outsideOverlay"
-        android:scrollbars="vertical"
         android:verticalSpacing="@dimen/grid_item_spacing" />
 
 </FrameLayout>
