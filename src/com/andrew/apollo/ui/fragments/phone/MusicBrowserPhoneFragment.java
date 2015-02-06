@@ -32,8 +32,7 @@ import com.andrew.apollo.utils.NavUtils;
 import com.andrew.apollo.utils.PreferenceUtils;
 import com.andrew.apollo.utils.SortOrder;
 import com.andrew.apollo.utils.ThemeUtils;
-import com.viewpagerindicator.TitlePageIndicator;
-import com.viewpagerindicator.TitlePageIndicator.OnCenterItemClickListener;
+import com.andrew.apollo.widgets.SlidingTabLayout;
 
 /**
  * This class is used to hold the {@link ViewPager} used for swiping between the
@@ -48,7 +47,7 @@ import com.viewpagerindicator.TitlePageIndicator.OnCenterItemClickListener;
  * @author Andrew Neal (andrewdneal@gmail.com)
  */
 public class MusicBrowserPhoneFragment extends Fragment implements
-        OnCenterItemClickListener {
+        ViewPager.OnPageChangeListener {
 
     /**
      * Pager
@@ -100,6 +99,8 @@ public class MusicBrowserPhoneFragment extends Fragment implements
             mPagerAdapter.add(mFragment.getFragmentClass(), null);
         }
 
+        getActivity().getActionBar().setElevation(0);
+
         // Initialize the ViewPager
         mViewPager = (ViewPager)rootView.findViewById(R.id.fragment_home_phone_pager);
         // Attch the adapter
@@ -109,13 +110,13 @@ public class MusicBrowserPhoneFragment extends Fragment implements
         // Start on the last page the user was on
         mViewPager.setCurrentItem(mPreferences.getStartPage());
 
-        // Initialze the TPI
-        final TitlePageIndicator pageIndicator = (TitlePageIndicator)rootView
-                .findViewById(R.id.fragment_home_phone_pager_titles);
-        // Attach the ViewPager
-        pageIndicator.setViewPager(mViewPager);
-        // Scroll to the current artist, album, or song
-        pageIndicator.setOnCenterItemClickListener(this);
+        // Assiging the Sliding Tab Layout View
+        SlidingTabLayout slidingTabs = (SlidingTabLayout) rootView.findViewById(R.id.fragment_home_phone_pager_tabs);
+
+        // Setting the ViewPager For the SlidingTabsLayout
+        slidingTabs.setViewPager(mViewPager);
+        slidingTabs.setOnPageChangeListener(this);
+
         return rootView;
     }
 
@@ -303,11 +304,13 @@ public class MusicBrowserPhoneFragment extends Fragment implements
         return super.onOptionsItemSelected(item);
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
-    public void onCenterItemClick(final int position) {
+    public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+        // Do nothing
+    }
+
+    @Override
+    public void onPageSelected(int position) {
         // If on the artist fragment, scrolls to the current artist
         if (position == 2) {
             getArtistFragment().scrollToCurrentArtist();
@@ -318,6 +321,11 @@ public class MusicBrowserPhoneFragment extends Fragment implements
         } else if (position == 4) {
             getSongFragment().scrollToCurrentSong();
         }
+    }
+
+    @Override
+    public void onPageScrollStateChanged(int state) {
+        // Do nothing
     }
 
     private boolean isArtistPage() {

@@ -117,7 +117,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/color_scheme_dialog_row_padding"
             android:layout_weight="1"
-            android:background="@color/white" />
+            android:background="@color/black" />
 
         <Button
             android:id="@+id/color_scheme_dialog_preset_eight"
