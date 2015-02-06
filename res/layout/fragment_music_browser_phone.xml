@@ -22,12 +22,12 @@
         android:id="@+id/fragment_home_phone_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
-
-        <com.andrew.apollo.widgets.theme.ThemeableTitlePageIndicator
-            android:id="@+id/fragment_home_phone_pager_titles"
+ 
+        <com.andrew.apollo.widgets.SlidingTabLayout
+            android:id="@+id/fragment_home_phone_pager_tabs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="@dimen/text_size_micro" />
+            android:elevation="@dimen/header_footer_elevation" />
 
         <android.support.v4.view.ViewPager
             android:id="@+id/fragment_home_phone_pager"
@@ -35,7 +35,5 @@
             android:layout_height="match_parent"
             android:layout_below="@+id/fragment_home_phone_pager_titles" />
     </RelativeLayout>
-
-    <include layout="@layout/top_shadow" />
 
 </FrameLayout>

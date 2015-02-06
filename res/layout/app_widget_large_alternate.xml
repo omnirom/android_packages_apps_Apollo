@@ -85,7 +85,7 @@
             android:contentDescription="@string/accessibility_shuffle"
             android:padding="@dimen/notification_expanded_button_padding"
             android:scaleType="fitCenter"
-            android:src="@drawable/btn_playback_shuffle" />
+            android:src="@drawable/btn_playback_shuffle_white" />
 
         <ImageButton
             android:id="@+id/app_widget_large_alternate_previous"
@@ -96,7 +96,7 @@
             android:contentDescription="@string/accessibility_prev"
             android:padding="@dimen/notification_expanded_button_padding"
             android:scaleType="fitCenter"
-            android:src="@drawable/btn_playback_previous" />
+            android:src="@drawable/btn_playback_previous_white" />
 
         <ImageButton
             android:id="@+id/app_widget_large_alternate_play"
@@ -106,7 +106,7 @@
             android:background="?android:selectableItemBackground"
             android:padding="@dimen/notification_expanded_button_padding"
             android:scaleType="fitCenter"
-            android:src="@drawable/btn_playback_pause" />
+            android:src="@drawable/btn_playback_pause_white" />
 
         <ImageButton
             android:id="@+id/app_widget_large_alternate_next"
@@ -117,7 +117,7 @@
             android:contentDescription="@string/accessibility_next"
             android:padding="@dimen/notification_expanded_button_padding"
             android:scaleType="fitCenter"
-            android:src="@drawable/btn_playback_next" />
+            android:src="@drawable/btn_playback_next_white" />
 
         <ImageButton
             android:id="@+id/app_widget_large_alternate_repeat"
@@ -128,7 +128,7 @@
             android:contentDescription="@string/accessibility_repeat"
             android:padding="@dimen/notification_expanded_button_padding"
             android:scaleType="fitCenter"
-            android:src="@drawable/btn_playback_repeat" />
+            android:src="@drawable/btn_playback_repeat_white" />
     </LinearLayout>
 
 </GridLayout>

@@ -21,7 +21,9 @@
         <item name="android:colorPrimary">@color/primary</item>
         <item name="android:colorPrimaryDark">@color/primary_dark</item>
         <item name="android:colorAccent">@color/accent</item>
+        <item name="android:navigationBarColor">@color/action_bar_color</item>
         <item name="android:actionOverflowButtonStyle">@style/ActionOverFlowButton</item>
+        <item name="android:textColorPrimary">@color/white</item>
     </style>
 
     <!-- Main Material light -->
@@ -30,7 +32,9 @@
         <item name="android:colorPrimary">@color/primary</item>
         <item name="android:colorPrimaryDark">@color/primary_dark</item>
         <item name="android:colorAccent">@color/accent</item>
+        <item name="android:navigationBarColor">@color/action_bar_color</item>
         <item name="android:actionOverflowButtonStyle">@style/ActionOverFlowButton</item>
+        <item name="android:textColorPrimary">@color/white</item>
     </style>
 
     <!-- Overflow -->
