@@ -21,10 +21,10 @@
 
     <ImageView
         android:id="@+id/edit_track_list_item_handle"
-        android:layout_width="@dimen/drag_and_drop_handle"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="fitXY"
-        android:src="@drawable/playlist_tile_normal" />
+        android:src="@drawable/playlist_tile_normal_black" />
 
     <FrameLayout
         android:id="@+id/edit_track_list_container"

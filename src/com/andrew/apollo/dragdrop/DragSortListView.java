@@ -393,9 +393,9 @@ public class DragSortListView extends ListView {
                 DragSortController.ON_DOWN, DragSortController.FLING_RIGHT_REMOVE);
         mController.setRemoveEnabled(true);
         mController.setSortEnabled(true);
-        /* Transparent kitkat white */
+        /* Transparent kitkat black */
         mController
-                .setBackgroundColor(getResources().getColor(R.color.holo_gray_light));
+                .setBackgroundColor(getResources().getColor(R.color.transparent_black));
 
         mFloatViewManager = mController;
         setOnTouchListener(mController);

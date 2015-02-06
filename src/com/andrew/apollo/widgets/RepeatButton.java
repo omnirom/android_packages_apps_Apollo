@@ -24,7 +24,6 @@ import com.andrew.apollo.R;
 import com.andrew.apollo.utils.ApolloUtils;
 import com.andrew.apollo.utils.MusicUtils;
 import com.andrew.apollo.utils.ThemeUtils;
-import com.andrew.apollo.widgets.theme.HoloSelector;
 
 /**
  * A custom {@link ImageButton} that represents the "repeat" button.
@@ -62,8 +61,6 @@ public class RepeatButton extends ImageButton implements OnClickListener, OnLong
         super(context, attrs);
         // Initialze the theme resources
         mResources = new ThemeUtils(context);
-        // Set the selector
-        setBackgroundDrawable(new HoloSelector(context));
         // Control playback (cycle repeat modes)
         setOnClickListener(this);
         // Show the cheat sheet
