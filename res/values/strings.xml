@@ -127,7 +127,9 @@
     <string name="settings_cyanogenmod_title" translatable="false">CyanogenMod</string>
     <string name="settings_self_title" translatable="false">Andrew Neal</string>
     <string name="settings_lopez_title" translatable="false">A.J. Lopez</string>
-    <string name="settings_lopez_summary">Icon and Play Store banner design</string>
+    <string name="settings_lopez_summary">Original icon and Play Store banner design</string>
+    <string name="settings_jacek_title" translatable="false">Jacek Malinowski</string>
+    <string name="settings_jacek_summary">Current icon</string>
     <string name="settings_color_scheme_title">Choose Apollo\'s default color scheme</string>
     <string name="settings_color_scheme_summary">Changes the accent color in Apollo</string>
     <string name="settings_theme_chooser_title">Theme chooser</string>

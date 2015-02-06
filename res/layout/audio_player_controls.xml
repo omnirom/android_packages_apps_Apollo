@@ -28,7 +28,8 @@
             android:layout_gravity="center"
             android:contentDescription="@string/accessibility_shuffle"
             android:scaleType="centerInside"
-            android:src="@drawable/btn_playback_shuffle" />
+            android:src="@drawable/btn_playback_shuffle"
+            android:background="?android:attr/selectableItemBackgroundBorderless" />
     </FrameLayout>
 
     <FrameLayout
@@ -42,7 +43,8 @@
             android:layout_height="@dimen/audio_player_controls_main_button_height"
             android:layout_gravity="center"
             android:scaleType="centerInside"
-            android:src="@drawable/btn_playback_previous" />
+            android:src="@drawable/btn_playback_previous"
+            android:background="?android:attr/selectableItemBackgroundBorderless" />
     </FrameLayout>
 
     <FrameLayout
@@ -58,7 +60,8 @@
             android:contentDescription="@string/accessibility_play"
             android:focusable="true"
             android:scaleType="centerInside"
-            android:src="@drawable/btn_playback_play" />
+            android:src="@drawable/btn_playback_play"
+            android:background="?android:attr/selectableItemBackgroundBorderless" />
     </FrameLayout>
 
     <FrameLayout
@@ -72,7 +75,8 @@
             android:layout_height="@dimen/audio_player_controls_main_button_height"
             android:layout_gravity="center"
             android:scaleType="centerInside"
-            android:src="@drawable/btn_playback_next" />
+            android:src="@drawable/btn_playback_next"
+            android:background="?android:attr/selectableItemBackgroundBorderless" />
     </FrameLayout>
 
     <FrameLayout
@@ -88,7 +92,8 @@
             android:contentDescription="@string/accessibility_repeat"
             android:focusable="true"
             android:scaleType="centerInside"
-            android:src="@drawable/btn_playback_repeat" />
+            android:src="@drawable/btn_playback_repeat"
+            android:background="?android:attr/selectableItemBackgroundBorderless" />
     </FrameLayout>
 
 </merge>
