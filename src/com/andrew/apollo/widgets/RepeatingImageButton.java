@@ -24,7 +24,6 @@ import com.andrew.apollo.R;
 import com.andrew.apollo.utils.ApolloUtils;
 import com.andrew.apollo.utils.MusicUtils;
 import com.andrew.apollo.utils.ThemeUtils;
-import com.andrew.apollo.widgets.theme.HoloSelector;
 
 /**
  * A {@link ImageButton} that will repeatedly call a 'listener' method as long
@@ -65,8 +64,6 @@ public class RepeatingImageButton extends ImageButton implements OnClickListener
         super(context, attrs);
         // Initialze the theme resources
         mResources = new ThemeUtils(context);
-        // Theme the selector
-        setBackgroundDrawable(new HoloSelector(context));
         setFocusable(true);
         setLongClickable(true);
         setOnClickListener(this);

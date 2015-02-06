@@ -229,9 +229,9 @@ public class RecentWidgetProvider extends AppWidgetBase {
         /* Set correct drawable for pause state */
         final boolean isPlaying = service.isPlaying();
         if (isPlaying) {
-            mViews.setImageViewResource(R.id.app_widget_recents_play, R.drawable.btn_playback_pause);
+            mViews.setImageViewResource(R.id.app_widget_recents_play, R.drawable.btn_playback_pause_white);
         } else {
-            mViews.setImageViewResource(R.id.app_widget_recents_play, R.drawable.btn_playback_play);
+            mViews.setImageViewResource(R.id.app_widget_recents_play, R.drawable.btn_playback_play_white);
         }
 
         // Link actions buttons to intents

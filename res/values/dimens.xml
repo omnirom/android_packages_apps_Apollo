@@ -107,9 +107,6 @@
     <dimen name="app_widget_padding">0.0dip</dimen>
     <dimen name="app_widget_bottom_margin">4.0dip</dimen>
 
-    <!-- Shadow height -->
-    <dimen name="shadow_height">5.0dip</dimen>
-
     <!-- Colorstrip -->
     <dimen name="colorstrip_height">2.0dip</dimen>
 

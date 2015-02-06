@@ -24,7 +24,6 @@ import com.andrew.apollo.R;
 import com.andrew.apollo.utils.ApolloUtils;
 import com.andrew.apollo.utils.MusicUtils;
 import com.andrew.apollo.utils.ThemeUtils;
-import com.andrew.apollo.widgets.theme.HoloSelector;
 
 /**
  * @author Andrew Neal (andrewdneal@gmail.com)
@@ -55,8 +54,6 @@ public class ShuffleButton extends ImageButton implements OnClickListener, OnLon
         super(context, attrs);
         // Initialze the theme resources
         mResources = new ThemeUtils(context);
-        // Theme the selector
-        setBackgroundDrawable(new HoloSelector(context));
         // Control playback (cycle shuffle)
         setOnClickListener(this);
         // Show the cheat sheet
