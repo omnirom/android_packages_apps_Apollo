@@ -72,23 +72,23 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal" >
 
-                <com.andrew.apollo.widgets.RepeatingImageButton
+                <com.andrew.apollo.widgets.RepeatingImageButtonWhite
                     android:id="@+id/action_button_previous"
                     style="@style/BottomActionBarItem.Previous" />
 
-                <com.andrew.apollo.widgets.PlayPauseButton
+                <com.andrew.apollo.widgets.PlayPauseButtonWhite
                     android:id="@+id/action_button_play"
                     style="@style/BottomActionBarItem.Play" />
 
-                <com.andrew.apollo.widgets.RepeatingImageButton
+                <com.andrew.apollo.widgets.RepeatingImageButtonWhite
                     android:id="@+id/action_button_next"
                     style="@style/BottomActionBarItem.Next" />
 
-                <com.andrew.apollo.widgets.ShuffleButton
+                <com.andrew.apollo.widgets.ShuffleButtonWhite
                     android:id="@+id/action_button_shuffle"
                     style="@style/BottomActionBarItem.Shuffle" />
 
-                <com.andrew.apollo.widgets.RepeatButton
+                <com.andrew.apollo.widgets.RepeatButtonWhite
                     android:id="@+id/action_button_repeat"
                     style="@style/BottomActionBarItem.Repeat" />
             </LinearLayout>

@@ -45,9 +45,10 @@ import com.andrew.apollo.utils.MusicUtils;
 import com.andrew.apollo.utils.MusicUtils.ServiceToken;
 import com.andrew.apollo.utils.NavUtils;
 import com.andrew.apollo.utils.ThemeUtils;
-import com.andrew.apollo.widgets.PlayPauseButton;
-import com.andrew.apollo.widgets.RepeatButton;
+import com.andrew.apollo.widgets.PlayPauseButtonWhite;
+import com.andrew.apollo.widgets.RepeatButtonWhite;
 import com.andrew.apollo.widgets.ShuffleButton;
+import com.andrew.apollo.widgets.ShuffleButtonWhite;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -75,17 +76,17 @@ public abstract class BaseActivity extends FragmentActivity implements ServiceCo
     /**
      * Play and pause button (BAB)
      */
-    private PlayPauseButton mPlayPauseButton;
+    private PlayPauseButtonWhite mPlayPauseButtonWhite;
 
     /**
      * Repeat button (BAB)
      */
-    private RepeatButton mRepeatButton;
+    private RepeatButtonWhite mRepeatButtonWhite;
 
     /**
      * Shuffle button (BAB)
      */
-    private ShuffleButton mShuffleButton;
+    private ShuffleButtonWhite mShuffleButtonWhite;
 
     /**
      * Track name (BAB)
@@ -305,11 +306,11 @@ public abstract class BaseActivity extends FragmentActivity implements ServiceCo
      */
     private void initBottomActionBar() {
         // Play and pause button
-        mPlayPauseButton = (PlayPauseButton)findViewById(R.id.action_button_play);
+        mPlayPauseButtonWhite = (PlayPauseButtonWhite)findViewById(R.id.action_button_play);
         // Shuffle button
-        mShuffleButton = (ShuffleButton)findViewById(R.id.action_button_shuffle);
+        mShuffleButtonWhite = (ShuffleButtonWhite)findViewById(R.id.action_button_shuffle);
         // Repeat button
-        mRepeatButton = (RepeatButton)findViewById(R.id.action_button_repeat);
+        mRepeatButtonWhite = (RepeatButtonWhite)findViewById(R.id.action_button_repeat);
         // Track name
         mTrackName = (TextView)findViewById(R.id.bottom_action_bar_line_one);
         // Artist name
@@ -342,11 +343,11 @@ public abstract class BaseActivity extends FragmentActivity implements ServiceCo
      */
     private void updatePlaybackControls() {
         // Set the play and pause image
-        mPlayPauseButton.updateState();
+        mPlayPauseButtonWhite.updateState();
         // Set the shuffle image
-        mShuffleButton.updateShuffleState();
+        mShuffleButtonWhite.updateShuffleState();
         // Set the repeat image
-        mRepeatButton.updateRepeatState();
+        mRepeatButtonWhite.updateRepeatState();
     }
 
     /**
@@ -422,13 +423,13 @@ public abstract class BaseActivity extends FragmentActivity implements ServiceCo
                 }
             } else if (action.equals(MusicPlaybackService.PLAYSTATE_CHANGED)) {
                 // Set the play and pause image
-                mReference.get().mPlayPauseButton.updateState();
+                mReference.get().mPlayPauseButtonWhite.updateState();
             } else if (action.equals(MusicPlaybackService.REPEATMODE_CHANGED)
                     || action.equals(MusicPlaybackService.SHUFFLEMODE_CHANGED)) {
                 // Set the repeat image
-                mReference.get().mRepeatButton.updateRepeatState();
+                mReference.get().mRepeatButtonWhite.updateRepeatState();
                 // Set the shuffle image
-                mReference.get().mShuffleButton.updateShuffleState();
+                mReference.get().mShuffleButtonWhite.updateShuffleState();
             } else if (action.equals(MusicPlaybackService.REFRESH)) {
                 // Let the listener know to update a list
                 for (final MusicStateListener listener : mReference.get().mMusicStateListener) {

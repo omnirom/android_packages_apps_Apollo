@@ -25,16 +25,16 @@
     <color name="action_bar_subtitle">@color/transparent_white</color>
 
     <!-- Adpater lines -->
-    <color name="line_one">@color/white</color>
-    <color name="line_two">@color/transparent_white</color>
-    <color name="line_three">@color/transparent_white</color>
+    <color name="line_one">@color/black</color>
+    <color name="line_two">@color/transparent_black</color>
+    <color name="line_three">@color/transparent_black</color>
 
     <!-- Now playing -->
-    <color name="audio_player_current_time">@color/white</color>
-    <color name="audio_player_total_time">@color/white</color>
-    <color name="audio_player_line_one">@color/white</color>
-    <color name="audio_player_line_two">@color/transparent_white</color>
-    <color name="audio_player_pager_container">@color/action_bar_color</color>
+    <color name="audio_player_current_time">@color/black</color>
+    <color name="audio_player_total_time">@color/black</color>
+    <color name="audio_player_line_one">@color/black</color>
+    <color name="audio_player_line_two">@color/transparent_black</color>
+    <color name="audio_player_pager_container">@color/black</color>
 
     <!-- Bottom action bar -->
     <color name="bottom_action_bar">@color/action_bar_color</color>

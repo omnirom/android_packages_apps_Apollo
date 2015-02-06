@@ -70,8 +70,6 @@ public class SettingsActivity extends PreferenceActivity {
         // Add the preferences
         addPreferencesFromResource(R.xml.settings);
 
-        // Interface settings
-        initInterface();
         // Removes the cache entries
         deleteCache();
         // About
@@ -117,46 +115,6 @@ public class SettingsActivity extends PreferenceActivity {
     protected void onStop() {
         super.onStop();
         MusicUtils.notifyForegroundStateChanged(this, false);
-    }
-
-    /**
-     * Initializes the preferences under the "Interface" category
-     */
-    private void initInterface() {
-        // Color scheme picker
-        updateColorScheme();
-        // Open the theme chooser
-        openThemeChooser();
-    }
-
-    /**
-     * Shows the {@link ColorSchemeDialog} and then saves the changes.
-     */
-    private void updateColorScheme() {
-        final Preference colorScheme = findPreference("color_scheme");
-        colorScheme.setOnPreferenceClickListener(new OnPreferenceClickListener() {
-            @Override
-            public boolean onPreferenceClick(final Preference preference) {
-                ApolloUtils.showColorPicker(SettingsActivity.this);
-                return true;
-            }
-        });
-    }
-
-    /**
-     * Opens the {@link ThemeFragment}.
-     */
-    private void openThemeChooser() {
-        final Preference themeChooser = findPreference("theme_chooser");
-        themeChooser.setOnPreferenceClickListener(new OnPreferenceClickListener() {
-            @Override
-            public boolean onPreferenceClick(final Preference preference) {
-                final Intent themeChooserIntent = new Intent(SettingsActivity.this,
-                        ThemesActivity.class);
-                startActivity(themeChooserIntent);
-                return true;
-            }
-        });
     }
 
     /**

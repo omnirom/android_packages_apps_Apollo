@@ -64,8 +64,11 @@ import com.andrew.apollo.utils.NavUtils;
 import com.andrew.apollo.utils.ThemeUtils;
 import com.andrew.apollo.widgets.PlayPauseButton;
 import com.andrew.apollo.widgets.RepeatButton;
+import com.andrew.apollo.widgets.RepeatButtonWhite;
 import com.andrew.apollo.widgets.RepeatingImageButton;
+import com.andrew.apollo.widgets.RepeatingImageButtonWhite;
 import com.andrew.apollo.widgets.ShuffleButton;
+import com.andrew.apollo.widgets.ShuffleButtonWhite;
 
 import java.lang.ref.WeakReference;
 
@@ -89,14 +92,26 @@ public class AudioPlayerActivity extends FragmentActivity implements ServiceConn
     // Repeat button
     private RepeatButton mRepeatButton;
 
+    // Repeat button white
+    private RepeatButtonWhite mRepeatButtonWhite;
+
     // Shuffle button
     private ShuffleButton mShuffleButton;
+
+    // Shuffle button white
+    private ShuffleButtonWhite mShuffleButtonWhite;
 
     // Previous button
     private RepeatingImageButton mPreviousButton;
 
     // Next button
     private RepeatingImageButton mNextButton;
+
+    // Previous button white
+    private RepeatingImageButton mPreviousButtonWhite;
+
+    // Next button white
+    private RepeatingImageButton mNextButtonWhite;
 
     // Track name
     private TextView mTrackName;

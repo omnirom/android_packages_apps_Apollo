@@ -128,14 +128,14 @@ public class AppWidgetLargeAlternate extends AppWidgetBase {
         final boolean isPlaying = service.isPlaying();
         if (isPlaying) {
             appWidgetView.setImageViewResource(R.id.app_widget_large_alternate_play,
-                    R.drawable.btn_playback_pause);
+                    R.drawable.btn_playback_pause_white);
             if (ApolloUtils.hasJellyBean()) {
                 appWidgetView.setContentDescription(R.id.app_widget_large_alternate_play,
                         service.getString(R.string.accessibility_pause));
             }
         } else {
             appWidgetView.setImageViewResource(R.id.app_widget_large_alternate_play,
-                    R.drawable.btn_playback_play);
+                    R.drawable.btn_playback_play_white);
             if (ApolloUtils.hasJellyBean()) {
                 appWidgetView.setContentDescription(R.id.app_widget_large_alternate_play,
                         service.getString(R.string.accessibility_play));
@@ -154,7 +154,7 @@ public class AppWidgetLargeAlternate extends AppWidgetBase {
                 break;
             default:
                 appWidgetView.setImageViewResource(R.id.app_widget_large_alternate_repeat,
-                        R.drawable.btn_playback_repeat);
+                        R.drawable.btn_playback_repeat_white);
                 break;
         }
 
@@ -162,7 +162,7 @@ public class AppWidgetLargeAlternate extends AppWidgetBase {
         switch (service.getShuffleMode()) {
             case MusicPlaybackService.SHUFFLE_NONE:
                 appWidgetView.setImageViewResource(R.id.app_widget_large_alternate_shuffle,
-                        R.drawable.btn_playback_shuffle);
+                        R.drawable.btn_playback_shuffle_white);
                 break;
             case MusicPlaybackService.SHUFFLE_AUTO:
                 appWidgetView.setImageViewResource(R.id.app_widget_large_alternate_shuffle,

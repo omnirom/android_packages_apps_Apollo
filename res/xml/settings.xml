@@ -16,19 +16,6 @@
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <!-- UI catetgory -->
-    <PreferenceCategory android:title="@string/settings_ui_category" >
-
-        <!-- Color scheme -->
-        <Preference
-            android:key="color_scheme"
-            android:summary="@string/settings_color_scheme_summary"
-            android:title="@string/settings_color_scheme_title" />
-        <!-- Theme chooser -->
-        <Preference
-            android:key="theme_chooser"
-            android:title="@string/settings_theme_chooser_title" />
-    </PreferenceCategory>
     <!-- Data catetory -->
     <PreferenceCategory android:title="@string/settings_data_category" >
 
@@ -76,6 +63,9 @@
                 <Preference
                     android:summary="@string/settings_lopez_summary"
                     android:title="@string/settings_lopez_title" />
+                <Preference
+                    android:summary="@string/settings_jacek_summary"
+                    android:title="@string/settings_jacek_title" />
                 <Preference android:title="@string/settings_cyanogenmod_title" />
             </PreferenceCategory>
         </PreferenceScreen>
