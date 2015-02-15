@@ -38,7 +38,7 @@
             android:baselineAligned="false"
             android:orientation="horizontal"
             android:background="@color/header_footer_background"
-            android:elevation="@dimen/header_footer_elevation"  >
+            android:elevation="@dimen/header_footer_elevation" >
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -132,7 +132,7 @@
             android:paddingBottom="@dimen/audio_player_seek_bar_margin_bottom"
             android:orientation="horizontal"
             android:background="@color/progress_background" >
-            
+
             <com.andrew.apollo.widgets.theme.ThemeableTextView
                 android:id="@+id/audio_player_current_time"
                 android:layout_width="@dimen/audio_player_time_width"
