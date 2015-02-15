@@ -17,4 +17,3 @@
 <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
     android:src="@drawable/playlist_tile_normal"
     android:tint="@color/icon_color_light" />
-
