@@ -47,7 +47,6 @@ import com.andrew.apollo.utils.NavUtils;
 import com.andrew.apollo.utils.ThemeUtils;
 import com.andrew.apollo.widgets.PlayPauseButtonWhite;
 import com.andrew.apollo.widgets.RepeatButtonWhite;
-import com.andrew.apollo.widgets.ShuffleButton;
 import com.andrew.apollo.widgets.ShuffleButtonWhite;
 
 import java.lang.ref.WeakReference;
