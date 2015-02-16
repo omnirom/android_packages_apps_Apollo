@@ -63,18 +63,16 @@ import com.andrew.apollo.utils.MusicUtils.ServiceToken;
 import com.andrew.apollo.utils.NavUtils;
 import com.andrew.apollo.utils.ThemeUtils;
 import com.andrew.apollo.widgets.PlayPauseButton;
-import com.andrew.apollo.widgets.RepeatButton;
 import com.andrew.apollo.widgets.RepeatButtonWhite;
 import com.andrew.apollo.widgets.RepeatingImageButton;
 import com.andrew.apollo.widgets.RepeatingImageButtonWhite;
-import com.andrew.apollo.widgets.ShuffleButton;
 import com.andrew.apollo.widgets.ShuffleButtonWhite;
 
 import java.lang.ref.WeakReference;
 
 /**
  * Apollo's "now playing" interface.
- * 
+ *
  * @author Andrew Neal (andrewdneal@gmail.com)
  */
 public class AudioPlayerActivity extends FragmentActivity implements ServiceConnection,
@@ -89,14 +87,8 @@ public class AudioPlayerActivity extends FragmentActivity implements ServiceConn
     // Play and pause button
     private PlayPauseButton mPlayPauseButton;
 
-    // Repeat button
-    private RepeatButton mRepeatButton;
-
     // Repeat button white
     private RepeatButtonWhite mRepeatButtonWhite;
-
-    // Shuffle button
-    private ShuffleButton mShuffleButton;
 
     // Shuffle button white
     private ShuffleButtonWhite mShuffleButtonWhite;
