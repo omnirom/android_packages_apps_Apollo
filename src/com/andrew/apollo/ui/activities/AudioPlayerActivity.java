@@ -525,7 +525,7 @@ public class AudioPlayerActivity extends FragmentActivity implements ServiceConn
         // Shuffle button
         mShuffleButtonWhite = (ShuffleButtonWhite)findViewById(R.id.action_button_shuffle);
         // Repeat button
-        mRepeatButton = (RepeatButton)findViewById(R.id.action_button_repeat);
+        mRepeatButtonWhite = (RepeatButtonWhite)findViewById(R.id.action_button_repeat);
         // Previous button
         mPreviousButton = (RepeatingImageButton)findViewById(R.id.action_button_previous);
         // Next button
@@ -649,7 +649,7 @@ public class AudioPlayerActivity extends FragmentActivity implements ServiceConn
         // Set the shuffle image
         mShuffleButtonWhite.updateShuffleState();
         // Set the repeat image
-        mRepeatButton.updateRepeatState();
+        mRepeatButtonWhite.updateRepeatState();
     }
 
     /**
@@ -989,7 +989,7 @@ public class AudioPlayerActivity extends FragmentActivity implements ServiceConn
             } else if (action.equals(MusicPlaybackService.REPEATMODE_CHANGED)
                     || action.equals(MusicPlaybackService.SHUFFLEMODE_CHANGED)) {
                 // Set the repeat image
-                mReference.get().mRepeatButton.updateRepeatState();
+                mReference.get().mRepeatButtonWhite.updateRepeatState();
                 // Set the shuffle image
                 mReference.get().mShuffleButtonWhite.updateShuffleState();
             }

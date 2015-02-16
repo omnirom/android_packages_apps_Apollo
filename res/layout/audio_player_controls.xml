@@ -84,7 +84,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1" >
 
-        <com.andrew.apollo.widgets.RepeatButton
+        <com.andrew.apollo.widgets.RepeatButtonWhite
             android:id="@+id/action_button_repeat"
             android:layout_width="@dimen/audio_player_controls_end_button_width"
             android:layout_height="@dimen/audio_player_controls_end_button_height"
@@ -92,7 +92,7 @@
             android:contentDescription="@string/accessibility_repeat"
             android:focusable="true"
             android:scaleType="centerInside"
-            android:src="@drawable/btn_playback_repeat"
+            android:src="@drawable/btn_playback_repeat_all"
             android:background="?android:attr/selectableItemBackgroundBorderless" />
     </FrameLayout>
 
