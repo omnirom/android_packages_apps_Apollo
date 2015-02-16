@@ -74,4 +74,6 @@
     <color name="progress_background">#1e000000</color>
     <color name="header_footer_background">#1e000000</color>
     <color name="sliding_tabs_text_color">#ffffffff</color>
+    <color name="icon_color_grey">#999999</color>
+    <color name="icon_color_black">#050505</color>
 </resources>

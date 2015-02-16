@@ -12,6 +12,8 @@
 package com.andrew.apollo.widgets;
 
 import android.content.Context;
+import android.graphics.PorterDuff;
+import android.graphics.drawable.Drawable;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.View;
@@ -33,12 +35,12 @@ public class ShuffleButtonWhite extends ImageButton implements OnClickListener, 
     /**
      * Shuffle theme resource
      */
-    private static final String SHUFFLE = "btn_playback_shuffle_white";
+    private static final String SHUFFLE = "ic_btn_playback_shuffle";
 
     /**
-     * Shuffle all theme resource
+     * Don't shuffle theme resource
      */
-    private static final String SHUFFLE_ALL = "btn_playback_shuffle_all";
+    //private static final String SHUFFLE_NONE = "btn_playback_shuffle_all";
 
     /**
      * The resources to use.
@@ -86,18 +88,25 @@ public class ShuffleButtonWhite extends ImageButton implements OnClickListener, 
      * Sets the correct drawable for the shuffle state.
      */
     public void updateShuffleState() {
+        Drawable drawable;
         switch (MusicUtils.getShuffleMode()) {
             case MusicPlaybackService.SHUFFLE_NORMAL:
                 setContentDescription(getResources().getString(R.string.accessibility_shuffle_all));
-                setImageDrawable(mResources.getDrawable(SHUFFLE_ALL));
+                drawable = mResources.getDrawable(SHUFFLE);
+                drawable.setColorFilter(R.color.icon_color_black, PorterDuff.Mode.SRC_IN);
+                setImageDrawable(drawable);
                 break;
             case MusicPlaybackService.SHUFFLE_AUTO:
                 setContentDescription(getResources().getString(R.string.accessibility_shuffle_all));
-                setImageDrawable(mResources.getDrawable(SHUFFLE_ALL));
+                drawable = mResources.getDrawable(SHUFFLE);
+                drawable.setColorFilter(R.color.icon_color_black, PorterDuff.Mode.SRC_IN);
+                setImageDrawable(drawable);
                 break;
             case MusicPlaybackService.SHUFFLE_NONE:
                 setContentDescription(getResources().getString(R.string.accessibility_shuffle));
-                setImageDrawable(mResources.getDrawable(SHUFFLE));
+                drawable = mResources.getDrawable(SHUFFLE);
+                drawable.setColorFilter(R.color.icon_color_grey, PorterDuff.Mode.SRC_IN);
+                setImageDrawable(drawable);
                 break;
             default:
                 break;
