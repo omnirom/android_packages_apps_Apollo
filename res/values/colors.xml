@@ -71,6 +71,8 @@
     <color name="black_12p">#1e000000</color>
     <color name="black_26p">#42000000</color>
     <color name="icon_color_light">#333333</color>
+    <color name="play_icon_color">#000000</color>
+    <color name="play_icon_color_disabled">#8c8c8c</color>
     <color name="progress_background">#1e000000</color>
     <color name="header_footer_background">#1e000000</color>
     <color name="sliding_tabs_text_color">#ffffffff</color>
