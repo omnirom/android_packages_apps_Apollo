@@ -35,7 +35,7 @@ public class RepeatButtonWhite extends ImageButton implements OnClickListener, O
     /**
      * Repeat one theme resource
      */
-    private static final String REPEAT_ALL = "btn_playback_repeat_all";
+    private static final String REPEAT_ALL = "btn_playback_repeat_white";
 
     /**
      * Repeat one theme resource
@@ -45,7 +45,7 @@ public class RepeatButtonWhite extends ImageButton implements OnClickListener, O
     /**
      * Repeat one theme resource
      */
-    private static final String REPEAT_NONE = "btn_playback_repeat_white";
+    private static final String REPEAT_NONE = "btn_playback_repeat_grey";
 
     /**
      * The resources to use.

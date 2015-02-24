@@ -33,12 +33,12 @@ public class ShuffleButton extends ImageButton implements OnClickListener, OnLon
     /**
      * Shuffle theme resource
      */
-    private static final String SHUFFLE = "btn_playback_shuffle";
+    private static final String SHUFFLE_NONE = "btn_playback_shuffle_grey";
 
     /**
      * Shuffle all theme resource
      */
-    private static final String SHUFFLE_ALL = "btn_playback_shuffle_all";
+    private static final String SHUFFLE_ALL = "btn_playback_shuffle_black";
 
     /**
      * The resources to use.
@@ -97,7 +97,7 @@ public class ShuffleButton extends ImageButton implements OnClickListener, OnLon
                 break;
             case MusicPlaybackService.SHUFFLE_NONE:
                 setContentDescription(getResources().getString(R.string.accessibility_shuffle));
-                setImageDrawable(mResources.getDrawable(SHUFFLE));
+                setImageDrawable(mResources.getDrawable(SHUFFLE_NONE));
                 break;
             default:
                 break;

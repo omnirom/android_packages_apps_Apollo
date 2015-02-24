@@ -18,8 +18,7 @@
     android:shape="rectangle" >
 
     <gradient
-        android:angle="180"
-        android:endColor="@color/transparent"
-        android:startColor="@color/black" />
+        android:startColor="@color/transparent" 
+        android:endColor="@color/header_footer_background" />
 
 </shape>

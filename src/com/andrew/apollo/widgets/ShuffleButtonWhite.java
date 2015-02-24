@@ -33,12 +33,12 @@ public class ShuffleButtonWhite extends ImageButton implements OnClickListener, 
     /**
      * Shuffle theme resource
      */
-    private static final String SHUFFLE = "btn_playback_shuffle_white";
+    private static final String SHUFFLE = "btn_playback_shuffle_grey";
 
     /**
      * Shuffle all theme resource
      */
-    private static final String SHUFFLE_ALL = "btn_playback_shuffle_all";
+    private static final String SHUFFLE_ALL = "btn_playback_shuffle_white";
 
     /**
      * The resources to use.
