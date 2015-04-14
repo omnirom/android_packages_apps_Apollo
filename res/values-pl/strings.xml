@@ -53,6 +53,7 @@
   <string name="sort_order_entry_track_list">Lista utworów</string>
   <string name="sort_order_entry_number_of_songs">Liczba utworów</string>
   <string name="sort_order_entry_number_of_albums">Liczba albumów</string>
+  <string name="sort_order_entry_filename">Nazwa pliku</string>
   <string name="playlist_favorite">Ulubiona</string>
   <string name="playlist_favorites">Ulubione</string>
   <string name="playlist_last_added">Ostatnio dodane</string>
@@ -79,6 +80,7 @@
   <string name="context_menu_open_in_play_store">Otwórz w sklepie Play</string>
   <string name="context_menu_remove_from_recent">Usuń z ostatnio słuchanych</string>
   <string name="context_menu_use_as_ringtone">Ustaw jako dzwonek</string>
+  <string name="context_menu_remove_from_playlist">Usuń z listy odtwarzania</string>
   <string name="accessibility_play">Odtwórz</string>
   <string name="accessibility_pause">Pauza</string>
   <string name="accessibility_next">Następny</string>
@@ -101,6 +103,7 @@
   <string name="settings_about_apollo">O Apollo</string>
   <string name="settings_special_thanks">Specjalne podziękowania</string>
   <string name="settings_lopez_summary">Projekt ikony i bannerów w sklepie Play</string>
+  <string name="settings_jacek_summary">Bieżąca ikona</string>
   <string name="settings_color_scheme_title">Wybierz domyślny schemat kolorów Apollo</string>
   <string name="settings_color_scheme_summary">Zmienia akcentowany kolor w interfejsie Apollo</string>
   <string name="settings_theme_chooser_title">Menedżer motywów</string>
