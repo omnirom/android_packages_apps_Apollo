@@ -35,6 +35,10 @@
     <item quantity="one">1 nummer toegevoegd aan afspeellijst.</item>
     <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> nummers toegevoegd aan afspeellijst.</item>
   </plurals>
+  <plurals name="NNNtracksfromplaylist">
+    <item quantity="one"><xliff:g id="number" example="1">%d</xliff:g> nummer verwijderd van de afspeellijst.</item>
+    <item quantity="other"><xliff:g id="number" example="1">%d</xliff:g> nummers verwijderd van de afspeellijst.</item>
+  </plurals>
   <plurals name="NNNtrackstoqueue">
     <item quantity="one">1 nummer toegevoegd aan wachtrij.</item>
     <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> nummers toegevoegd aan wachtrij.</item>
