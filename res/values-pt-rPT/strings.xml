@@ -15,12 +15,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Page titles -->
   <string name="page_recent">Recente</string>
   <string name="page_artists">Artistas</string>
   <string name="page_albums">Álbuns</string>
   <string name="page_songs">Músicas</string>
   <string name="page_playlists">Listas de reprodução</string>
   <string name="page_genres">Géneros</string>
+  <!-- Option menu items -->
   <string name="menu_settings">Configurações</string>
   <string name="menu_search">Procura</string>
   <string name="menu_shuffle">Todas aleatório</string>
@@ -37,12 +39,14 @@
   <string name="menu_detailed">Detalhado</string>
   <string name="menu_grid">Grelha</string>
   <string name="menu_view_as">Ver como</string>
+  <!-- Playlist items -->
   <string name="add_to_playlist">Adicionar à lista de rep.</string>
   <string name="add_to_favorites">Adicionar aos favoritos</string>
   <string name="add_to_queue">Adicionar à fila</string>
   <string name="remove_from_favorites">Remover dos favoritos</string>
   <string name="remove_from_recent">Remover das recentes</string>
   <string name="remove_from_queue">Remover da fila</string>
+  <!-- Sort orders -->
   <string name="sort_order_entry_artist">Artista</string>
   <string name="sort_order_entry_album">Álbum</string>
   <string name="sort_order_entry_year">Ano</string>
@@ -51,9 +55,12 @@
   <string name="sort_order_entry_track_list">Lista de canções</string>
   <string name="sort_order_entry_number_of_songs">Número de músicas</string>
   <string name="sort_order_entry_number_of_albums">Número de álbuns</string>
+  <!-- Default playlist names -->
+  <!-- playlist_favorite used in voice search processing only -->
   <string name="playlist_favorite">Favorito</string>
   <string name="playlist_favorites">Favoritos</string>
   <string name="playlist_last_added">Última adicionada</string>
+  <!-- AlertDialog items -->
   <string name="new_playlist">Nova lista de rep.</string>
   <string name="save">Gravar</string>
   <string name="cancel">Cancelar</string>
@@ -67,6 +74,7 @@
   <string name="google_search">Pesquisa no Google</string>
   <string name="use_default">Usar foto padrão</string>
   <string name="old_photo">Usar foto antiga</string>
+  <!-- Context menu items -->
   <string name="context_menu_play_selection">Reproduzir</string>
   <string name="context_menu_play_next">Reproduzir próxima</string>
   <string name="context_menu_more_by_artist">Mais do mesmo artista</string>
@@ -77,6 +85,7 @@
   <string name="context_menu_open_in_play_store">Abrir na Play Store</string>
   <string name="context_menu_remove_from_recent">Remover das recentes</string>
   <string name="context_menu_use_as_ringtone">Usar como toque</string>
+  <!-- Content descriptions -->
   <string name="accessibility_play">Reproduzir</string>
   <string name="accessibility_pause">Pausa</string>
   <string name="accessibility_next">Próxima</string>
@@ -86,11 +95,13 @@
   <string name="accessibility_repeat">Repetir</string>
   <string name="accessibility_repeat_all">Repetir todas</string>
   <string name="accessibility_repeat_one">Repetir um</string>
+  <!-- Toast messages -->
   <string name="pinned_to_home_screen"><xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="name">%s</xliff:g> foi colocada no ecrã inicial</string>
   <string name="could_not_be_pinned_to_home_screen"><xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="name">%s</xliff:g> não pode ser colocada no ecrã inicial</string>
   <string name="set_as_ringtone">\'<xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="name" example="Alarm Bell">%s</xliff:g>\' definida como toque</string>
   <string name="playlist_renamed">Lista de rep. foi renomeada</string>
   <string name="theme_set"><xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="name">%s</xliff:g> definido como tema</string>
+  <!-- Settings -->
   <string name="settings_ui_category">Interface</string>
   <string name="settings_storage_category">Armazenamento</string>
   <string name="settings_data_category">Dados</string>
@@ -110,13 +121,18 @@
   <string name="settings_download_artist_images_title">Baixar imagens de álbuns restantes</string>
   <string name="settings_open_source_licenses">Licenças de código livre</string>
   <string name="settings_version_title">Número de versão</string>
+  <!-- Share Intent -->
   <string name="now_listening_to">#Em reprodução <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="title">%1$s</xliff:g> por <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="artist">%2$s</xliff:g> #Apollo</string>
   <string name="share_track_using">Partilhar música usando:</string>
+  <!-- ColorPicker -->
   <string name="color_picker_title">Esquema de cor</string>
   <string name="current_color">Atual</string>
   <string name="new_color">Nova</string>
+  <!-- App widget -->
   <string name="app_widget_large_alt">Apollo: 4x2 (alternativo)</string>
   <string name="app_widget_recent">Apollo: escutado recentemente</string>
+  <!-- What keywords to use when shopping for Apollo themes -->
+  <!-- Empty list / error messages -->
   <string name="no_effects_for_you">O equalizador não pôde ser aberto.</string>
   <string name="empty_music">Para copiar a música do seu computador para seu dispositivo, use um cabo USB.</string>
   <string name="empty_last_added">Vão ser mostradas aqui as músicas que você adicionou no último mês.</string>

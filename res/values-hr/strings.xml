@@ -15,5 +15,21 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Page titles -->
+  <!-- Option menu items -->
+  <!-- Playlist items -->
+  <!-- Sort orders -->
+  <!-- Default playlist names -->
+  <!-- playlist_favorite used in voice search processing only -->
+  <!-- AlertDialog items -->
+  <!-- Context menu items -->
   <string name="context_menu_use_as_ringtone">Preuzmi kao zvuk zvona</string>
+  <!-- Content descriptions -->
+  <!-- Toast messages -->
+  <!-- Settings -->
+  <!-- Share Intent -->
+  <!-- ColorPicker -->
+  <!-- App widget -->
+  <!-- What keywords to use when shopping for Apollo themes -->
+  <!-- Empty list / error messages -->
 </resources>

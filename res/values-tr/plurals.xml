@@ -15,34 +15,43 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Used to indicate the number of artists -->
   <plurals name="Nartists">
     <item quantity="one">1 sanatçı</item>
     <item quantity="other"><xliff:g id="count">%d</xliff:g> sanatçı</item>
   </plurals>
+  <!-- Used to indicate the number of albums for an artist -->
   <plurals name="Nalbums">
     <item quantity="one">1 albüm</item>
     <item quantity="other"><xliff:g id="count">%d</xliff:g> albüm</item>
   </plurals>
+  <!-- Used to indicate the number of songs for an album -->
   <plurals name="Nsongs">
     <item quantity="one">1 şarkı</item>
     <item quantity="other"><xliff:g id="count">%d</xliff:g> şarkı</item>
   </plurals>
+  <!-- Used to indicate the number of genres -->
   <plurals name="Ngenres">
     <item quantity="one">1 tür</item>
     <item quantity="other"><xliff:g id="count">%d</xliff:g> tür</item>
   </plurals>
+  <!-- Toasts after adding song(s) to playlists -->
   <plurals name="NNNtrackstoplaylist">
     <item quantity="one">1 şarkı çalma listesine eklendi.</item>
     <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> şarkı çalma listesine eklendi</item>
   </plurals>
+  <!-- Toasts after removing song(s) from playlists -->
+  <!-- Toasts after adding song(s) to queue -->
   <plurals name="NNNtrackstoqueue">
     <item quantity="one">1 şarkı kuyruğa eklendi.</item>
     <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> şarkı kuyruğa eklendi.</item>
   </plurals>
+  <!-- Toasts after adding song(s) to the favorites list -->
   <plurals name="NNNtrackstofavorites">
     <item quantity="one">1 şarkı Favorilere eklendi.</item>
     <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> şarkı Favorilere eklendi.</item>
   </plurals>
+  <!-- Toast confirming that song(s) was/were deleted. -->
   <plurals name="NNNtracksdeleted">
     <item quantity="one">1 şarkı silindi</item>
     <item quantity="other"><xliff:g id="songs_to_delete">%d</xliff:g> şarkı silindi.</item>
