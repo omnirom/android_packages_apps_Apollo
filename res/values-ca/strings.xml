@@ -15,12 +15,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Page titles -->
   <string name="page_recent">Recent</string>
   <string name="page_artists">Artistes</string>
   <string name="page_albums">Àlbums</string>
   <string name="page_songs">Cancions</string>
   <string name="page_playlists">Llistes</string>
   <string name="page_genres">Gèneres</string>
+  <!-- Option menu items -->
   <string name="menu_settings">Ajustos</string>
   <string name="menu_search">Cercar</string>
   <string name="menu_shuffle">Reproducció aleatòria</string>
@@ -31,18 +33,20 @@
   <string name="menu_clear_queue">Esborrar cua</string>
   <string name="menu_save_queue">Guardar cua</string>
   <string name="menu_share">Compartir</string>
-  <string name="menu_add_to_homescreen">Afegir a l\'escriptori</string>
+  <string name="menu_add_to_homescreen">Fixa a l\'escriptori</string>
   <string name="menu_equalizer">Equalitzador</string>
   <string name="menu_simple">Simple</string>
   <string name="menu_detailed">Detallat</string>
   <string name="menu_grid">Mosaic</string>
   <string name="menu_view_as">Disseny</string>
+  <!-- Playlist items -->
   <string name="add_to_playlist">Afegir a la llista</string>
   <string name="add_to_favorites">Afegir a favorits</string>
   <string name="add_to_queue">Afegir a la cua</string>
   <string name="remove_from_favorites">Treure de favorits</string>
   <string name="remove_from_recent">Treure de recents</string>
   <string name="remove_from_queue">Treure de la cua</string>
+  <!-- Sort orders -->
   <string name="sort_order_entry_az">A-Z</string>
   <string name="sort_order_entry_za">Z-A</string>
   <string name="sort_order_entry_artist">Artista</string>
@@ -54,9 +58,12 @@
   <string name="sort_order_entry_number_of_songs">Número de cancions</string>
   <string name="sort_order_entry_number_of_albums">Número d\'àlbums</string>
   <string name="sort_order_entry_filename">Non del fitxer</string>
+  <!-- Default playlist names -->
+  <!-- playlist_favorite used in voice search processing only -->
   <string name="playlist_favorite">Favorit</string>
   <string name="playlist_favorites">Favorits</string>
   <string name="playlist_last_added">Recents</string>
+  <!-- AlertDialog items -->
   <string name="new_playlist">Nova llista</string>
   <string name="save">Guardar</string>
   <string name="cancel">Cancelar</string>
@@ -70,6 +77,7 @@
   <string name="google_search">Cercar en Google</string>
   <string name="use_default">Utilitza la imatge per defecte</string>
   <string name="old_photo">Utilitza la imatge prèvia</string>
+  <!-- Context menu items -->
   <string name="context_menu_play_selection">Reproduir</string>
   <string name="context_menu_play_next">Següent</string>
   <string name="context_menu_more_by_artist">Més de l\'artista</string>
@@ -81,6 +89,7 @@
   <string name="context_menu_remove_from_recent">Treure de recents</string>
   <string name="context_menu_use_as_ringtone">Utilitza com a to</string>
   <string name="context_menu_remove_from_playlist">Suprimeix de la llista de reproducció</string>
+  <!-- Content descriptions -->
   <string name="accessibility_play">Reproduir</string>
   <string name="accessibility_pause">Pausar</string>
   <string name="accessibility_next">Següent</string>
@@ -90,11 +99,13 @@
   <string name="accessibility_repeat">Repetir</string>
   <string name="accessibility_repeat_all">Repetir totes</string>
   <string name="accessibility_repeat_one">Repetir una</string>
-  <string name="pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> afegida a l\'escriptori</string>
-  <string name="could_not_be_pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> no ha pogut ser afegida a l\'escriptori</string>
+  <!-- Toast messages -->
+  <string name="pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> fixada a l\'escriptori</string>
+  <string name="could_not_be_pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> no sha pogut fixar a l\'escriptori</string>
   <string name="set_as_ringtone">\u00AB<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\u00BB establerta com a to de trucada</string>
   <string name="playlist_renamed">Llista renombrada</string>
   <string name="theme_set"><xliff:g id="name">%s</xliff:g> establert com a tema</string>
+  <!-- Settings -->
   <string name="settings_ui_category">Aparença</string>
   <string name="settings_storage_category">Emmagatzematge</string>
   <string name="settings_data_category">Dades</string>
@@ -109,19 +120,24 @@
   <string name="settings_theme_chooser_title">Temes</string>
   <string name="settings_delete_cache_title">Netejar caché</string>
   <string name="settings_delete_cache_summary">Eliminar totes les imatges emmagatzemades</string>
-  <string name="settings_download_only_on_wifi_title">Descarregar només via Wi-Fi</string>
-  <string name="settings_download_only_on_wifi_summary">No descarregar contingut en xarxes mòbils per reduir les tarifes de dades de l\'operador</string>
-  <string name="settings_download_missing_artwork_title">Obtenir caràtules</string>
-  <string name="settings_download_artist_images_title">Obtenir fotos d\'artistes</string>
+  <string name="settings_download_only_on_wifi_title">Baixa només per Wi-Fi</string>
+  <string name="settings_download_only_on_wifi_summary">No baixeu contingut per xarxes mòbils per reduir despeses amb operador</string>
+  <string name="settings_download_missing_artwork_title">Baixa les caràtules d\'àlbum que faltin</string>
+  <string name="settings_download_artist_images_title">Baixa les fotos d\'artistes que faltin</string>
   <string name="settings_open_source_licenses">Llicències de software lliure</string>
   <string name="settings_version_title">Versió</string>
+  <!-- Share Intent -->
   <string name="now_listening_to">#Escoltant <xliff:g id="title">%1$s</xliff:g> de <xliff:g id="artist">%2$s</xliff:g> #Apollo</string>
   <string name="share_track_using">Compartir cançó fent servir:</string>
+  <!-- ColorPicker -->
   <string name="color_picker_title">Esquema de color</string>
   <string name="current_color">Actual</string>
   <string name="new_color">Nou</string>
+  <!-- App widget -->
   <string name="app_widget_large_alt">Apollo: 4x2 (alt.)</string>
   <string name="app_widget_recent">Apollo: Recents</string>
+  <!-- What keywords to use when shopping for Apollo themes -->
+  <!-- Empty list / error messages -->
   <string name="no_effects_for_you">El equalitzador no s\'ha pogut obrir.</string>
   <string name="empty_music">Per copiar música de l\'ordinador al dispositiu, utilitza un cable USB.</string>
   <string name="empty_last_added">Les cançons que has afegit en l\'últim mes apareixeran aquí.</string>

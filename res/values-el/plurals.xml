@@ -15,34 +15,43 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Used to indicate the number of artists -->
   <plurals name="Nartists">
     <item quantity="one">1 καλλιτέχνης</item>
     <item quantity="other"><xliff:g id="count">%d</xliff:g> καλλιτέχνες</item>
   </plurals>
+  <!-- Used to indicate the number of albums for an artist -->
   <plurals name="Nalbums">
     <item quantity="one">1 άλμπουμ</item>
     <item quantity="other"><xliff:g id="count">%d</xliff:g> άλμπουμ</item>
   </plurals>
+  <!-- Used to indicate the number of songs for an album -->
   <plurals name="Nsongs">
     <item quantity="one">1 τραγούδι</item>
     <item quantity="other"><xliff:g id="count">%d</xliff:g> τραγούδια</item>
   </plurals>
+  <!-- Used to indicate the number of genres -->
   <plurals name="Ngenres">
     <item quantity="one">1 είδος</item>
     <item quantity="other"><xliff:g id="count">%d</xliff:g> είδη</item>
   </plurals>
+  <!-- Toasts after adding song(s) to playlists -->
   <plurals name="NNNtrackstoplaylist">
     <item quantity="one">1 τραγούδι προστέθηκε στη λίστα αναπαραγωγής.</item>
     <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> τραγούδια προστέθηκαν στη λίστα αναπαραγωγής.</item>
   </plurals>
+  <!-- Toasts after removing song(s) from playlists -->
+  <!-- Toasts after adding song(s) to queue -->
   <plurals name="NNNtrackstoqueue">
     <item quantity="one">1 τραγούδι προστέθηκε στην ουρά.</item>
     <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> τραγούδια προστέθηκαν στην ουρά.</item>
   </plurals>
+  <!-- Toasts after adding song(s) to the favorites list -->
   <plurals name="NNNtrackstofavorites">
     <item quantity="one">1 τραγούδι προστέθηκε στα αγαπημένα.</item>
     <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> τραγούδια προστέθηκαν στα αγαπημένα.</item>
   </plurals>
+  <!-- Toast confirming that song(s) was/were deleted. -->
   <plurals name="NNNtracksdeleted">
     <item quantity="one">1 τραγούδι διεγράφη.</item>
     <item quantity="other"><xliff:g id="songs_to_delete">%d</xliff:g> τραγούδια διαγράφηκαν.</item>
