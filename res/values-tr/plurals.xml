@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Used to indicate the number of artists -->
   <plurals name="Nartists">
-    <item quantity="one">1 sanatçı</item>
+    <item quantity="one"><xliff:g id="count">%d</xliff:g> sanatçı</item>
     <item quantity="other"><xliff:g id="count">%d</xliff:g> sanatçı</item>
   </plurals>
   <!-- Used to indicate the number of albums for an artist -->
@@ -41,6 +41,10 @@
     <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> şarkı çalma listesine eklendi</item>
   </plurals>
   <!-- Toasts after removing song(s) from playlists -->
+  <plurals name="NNNtracksfromplaylist">
+    <item quantity="one"><xliff:g id="number" example="1">%d</xliff:g> şarkı çalma listesinden kaldırıldı.</item>
+    <item quantity="other"><xliff:g id="number" example="1">%d</xliff:g> şarkı çalma listesinden kaldırıldı.</item>
+  </plurals>
   <!-- Toasts after adding song(s) to queue -->
   <plurals name="NNNtrackstoqueue">
     <item quantity="one">1 şarkı kuyruğa eklendi.</item>

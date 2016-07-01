@@ -57,6 +57,7 @@
   <string name="sort_order_entry_track_list">Parça listesi</string>
   <string name="sort_order_entry_number_of_songs">Şarkı sayısı</string>
   <string name="sort_order_entry_number_of_albums">Albüm sayısı</string>
+  <string name="sort_order_entry_filename">Dosya adı</string>
   <!-- Default playlist names -->
   <!-- playlist_favorite used in voice search processing only -->
   <string name="playlist_favorite">Beğen</string>
@@ -87,6 +88,7 @@
   <string name="context_menu_open_in_play_store">Play Store\'da aç</string>
   <string name="context_menu_remove_from_recent">En son\'dan sil</string>
   <string name="context_menu_use_as_ringtone">Zil sesi olarak kullan</string>
+  <string name="context_menu_remove_from_playlist">Çalma listesinden kaldır</string>
   <!-- Content descriptions -->
   <string name="accessibility_play">Oynat</string>
   <string name="accessibility_pause">Duraklat</string>
@@ -112,6 +114,7 @@
   <string name="settings_about_apollo">Apollo Hakkında</string>
   <string name="settings_special_thanks">Özel teşekkürler</string>
   <string name="settings_lopez_summary">Simge ve Play Store banner tasarımı</string>
+  <string name="settings_jacek_summary">Geçerli simge</string>
   <string name="settings_color_scheme_title">Apollo\'nun varsayılan renk şemasını seç</string>
   <string name="settings_color_scheme_summary">Apollo\'daki vurgulama tonlarını değiştirir</string>
   <string name="settings_theme_chooser_title">Tema seçici</string>
