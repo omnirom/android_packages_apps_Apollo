@@ -57,6 +57,7 @@
   <string name="sort_order_entry_track_list">Elenco brani</string>
   <string name="sort_order_entry_number_of_songs">Numero canzoni</string>
   <string name="sort_order_entry_number_of_albums">Numero album</string>
+  <string name="sort_order_entry_filename">Nome file</string>
   <!-- Default playlist names -->
   <!-- playlist_favorite used in voice search processing only -->
   <string name="playlist_favorite">Preferito</string>
@@ -87,6 +88,7 @@
   <string name="context_menu_open_in_play_store">Apri in Play Store</string>
   <string name="context_menu_remove_from_recent">Rimuovi dai recenti</string>
   <string name="context_menu_use_as_ringtone">Usa come suoneria</string>
+  <string name="context_menu_remove_from_playlist">Rimuovi dalla playlist</string>
   <!-- Content descriptions -->
   <string name="accessibility_play">Riproduci</string>
   <string name="accessibility_pause">Pausa</string>
@@ -112,6 +114,7 @@
   <string name="settings_about_apollo">About Apollo</string>
   <string name="settings_special_thanks">Ringraziamenti</string>
   <string name="settings_lopez_summary">Design icona e banner Play Store</string>
+  <string name="settings_jacek_summary">Icona corrente</string>
   <string name="settings_color_scheme_title">Schema colori Apollo</string>
   <string name="settings_color_scheme_summary">Cambia il colore in primo piano di Apollo</string>
   <string name="settings_theme_chooser_title">Selettore tema</string>

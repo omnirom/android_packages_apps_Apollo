@@ -57,6 +57,7 @@
   <string name="sort_order_entry_track_list">Låtlista</string>
   <string name="sort_order_entry_number_of_songs">Antal låtar</string>
   <string name="sort_order_entry_number_of_albums">Antal album</string>
+  <string name="sort_order_entry_filename">Filnamn</string>
   <!-- Default playlist names -->
   <!-- playlist_favorite used in voice search processing only -->
   <string name="playlist_favorite">Favorit</string>
@@ -112,6 +113,7 @@
   <string name="settings_about_apollo">Om Apollo</string>
   <string name="settings_special_thanks">Särskilt tack</string>
   <string name="settings_lopez_summary">Design av ikon och Play Butik-banner</string>
+  <string name="settings_jacek_summary">Aktuell ikon</string>
   <string name="settings_color_scheme_title">Välj standardfärgschema</string>
   <string name="settings_color_scheme_summary">Ändrar färgen på detaljer</string>
   <string name="settings_theme_chooser_title">Temaväljaren</string>

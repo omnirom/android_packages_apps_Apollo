@@ -16,19 +16,132 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Page titles -->
+  <string name="page_recent">Recent</string>
+  <string name="page_artists">Artiști</string>
+  <string name="page_albums">Albume</string>
+  <string name="page_songs">Melodii</string>
+  <string name="page_playlists">Liste de redare</string>
+  <string name="page_genres">Genuri</string>
   <!-- Option menu items -->
+  <string name="menu_settings">Setări</string>
+  <string name="menu_search">Caută</string>
+  <string name="menu_shuffle">Amestecare</string>
+  <string name="menu_play_all">Redă toate</string>
+  <string name="menu_sort_by">Sortare în funcție de</string>
+  <string name="menu_shop">Magazin pentru teme</string>
+  <string name="menu_clear_recents">Golire fila Recente</string>
+  <string name="menu_clear_queue">Golire coada</string>
+  <string name="menu_save_queue">Salvează coadă</string>
+  <string name="menu_share">Împărtășește</string>
+  <string name="menu_add_to_homescreen">Fixare pe ecranul de start</string>
+  <string name="menu_equalizer">Egalizator</string>
+  <string name="menu_simple">Simplu</string>
+  <string name="menu_detailed">Detaliat</string>
+  <string name="menu_grid">Grilă</string>
+  <string name="menu_view_as">Vezi ca</string>
   <!-- Playlist items -->
+  <string name="add_to_playlist">Adăugare la lista de redare</string>
+  <string name="add_to_favorites">Adăugare la favorite</string>
+  <string name="add_to_queue">Adăugare la coadă</string>
+  <string name="remove_from_favorites">Eliminare din favorite</string>
+  <string name="remove_from_recent">Eliminare din recente</string>
+  <string name="remove_from_queue">Eliminare din coadă</string>
   <!-- Sort orders -->
+  <string name="sort_order_entry_az">A-Z</string>
+  <string name="sort_order_entry_za">Z-A</string>
+  <string name="sort_order_entry_artist">Artist</string>
+  <string name="sort_order_entry_album">Album</string>
+  <string name="sort_order_entry_year">An</string>
+  <string name="sort_order_entry_duration">Durată</string>
+  <string name="sort_order_entry_date_added">Data adăugării</string>
+  <string name="sort_order_entry_track_list">Lista de melodii</string>
+  <string name="sort_order_entry_number_of_songs">Numărul melodiilor</string>
+  <string name="sort_order_entry_number_of_albums">Numărul albumelor</string>
+  <string name="sort_order_entry_filename">Nume fișier</string>
   <!-- Default playlist names -->
   <!-- playlist_favorite used in voice search processing only -->
+  <string name="playlist_favorite">Favorite</string>
+  <string name="playlist_favorites">Favorite</string>
+  <string name="playlist_last_added">Ultimele adăugate</string>
   <!-- AlertDialog items -->
+  <string name="new_playlist">Listă de redare nouă</string>
+  <string name="save">Salvare</string>
+  <string name="cancel">Anulare</string>
+  <string name="overwrite">Suprascriere</string>
+  <string name="new_playlist_name_template">Lista de redare <xliff:g id="number">%d</xliff:g></string>
+  <string name="create_playlist_prompt">Numele listei de redare</string>
+  <string name="delete_dialog_title">Ștergeți <xliff:g id="item" example="album">%s</xliff:g>?</string>
+  <string name="cannot_be_undone">Această acțiune nu poate fi recuperată</string>
+  <string name="delete_warning">Această acțiune va șterge permanent intrările din cache ale imaginilor</string>
+  <string name="new_photo">Alege fotografie din Galerie</string>
+  <string name="google_search">Căutare Google</string>
+  <string name="use_default">Folosește fotografia implicită</string>
+  <string name="old_photo">Folosește fotografie veche</string>
   <!-- Context menu items -->
+  <string name="context_menu_play_selection">Redare</string>
+  <string name="context_menu_play_next">Redare următoarea melodie</string>
+  <string name="context_menu_more_by_artist">Mai multe de la acest artist</string>
+  <string name="context_menu_rename_playlist">Redenumire</string>
+  <string name="context_menu_delete">Ștergere</string>
+  <string name="context_menu_fetch_album_art">Găsire imagine album</string>
+  <string name="context_menu_fetch_artist_image">Găsire imagine artist</string>
+  <string name="context_menu_open_in_play_store">Deschidere în Magazin Play</string>
+  <string name="context_menu_remove_from_recent">Eliminare din recente</string>
+  <string name="context_menu_use_as_ringtone">Utilizați ca ton de apel</string>
+  <string name="context_menu_remove_from_playlist">Eliminare din lista de redare</string>
   <!-- Content descriptions -->
+  <string name="accessibility_play">Redare</string>
+  <string name="accessibility_pause">Pauză</string>
+  <string name="accessibility_next">Următorul</string>
+  <string name="accessibility_prev">Anteriorul</string>
+  <string name="accessibility_shuffle">Amestecă</string>
+  <string name="accessibility_shuffle_all">Amestecă toate</string>
+  <string name="accessibility_repeat">Repetă</string>
+  <string name="accessibility_repeat_all">Repetă toate</string>
+  <string name="accessibility_repeat_one">Repetă o melodie</string>
   <!-- Toast messages -->
+  <string name="pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> fixat pe ecranul de start</string>
+  <string name="could_not_be_pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> nu a fost fixat pe ecranul de start</string>
+  <string name="set_as_ringtone"><xliff:g id="name" example="Alarm Bell">%s</xliff:g> setat ca ton de apel</string>
+  <string name="playlist_renamed">Listă de redare redenumită</string>
+  <string name="theme_set"><xliff:g id="name">%s</xliff:g> setați ca temă</string>
   <!-- Settings -->
+  <string name="settings_ui_category">Interfață</string>
+  <string name="settings_storage_category">Spațiu de stocare</string>
+  <string name="settings_data_category">Date</string>
+  <string name="settings_about_category">Despre</string>
+  <string name="settings_author_title">Autor</string>
+  <string name="settings_about_apollo">Despre Apollo</string>
+  <string name="settings_special_thanks">Mulțumiri speciale</string>
+  <string name="settings_lopez_summary">Pictogramă oficială și banner în Magazin Play</string>
+  <string name="settings_jacek_summary">Icon curent</string>
+  <string name="settings_color_scheme_title">Alege schema de culori implicită a lui Apollo</string>
+  <string name="settings_color_scheme_summary">Schimbă accentul culorii în Apollo</string>
+  <string name="settings_theme_chooser_title">Selector temă</string>
+  <string name="settings_delete_cache_title">Șterge cache</string>
+  <string name="settings_delete_cache_summary">Șterge toate imaginile din cache</string>
+  <string name="settings_download_only_on_wifi_title">Descarcă doar prin intermediul Wi-Fi</string>
+  <string name="settings_download_only_on_wifi_summary">Pentru a reduce taxele de la operator, nu descărca folosind datele mobile</string>
+  <string name="settings_download_missing_artwork_title">Descarcă imagine album</string>
+  <string name="settings_download_artist_images_title">Descarcă imagine artist</string>
+  <string name="settings_open_source_licenses">Licențe open source</string>
+  <string name="settings_version_title">Număr versiune</string>
   <!-- Share Intent -->
+  <string name="now_listening_to">#SeRedă <xliff:g id="title">%1$s</xliff:g> de <xliff:g id="artist">%2$s</xliff:g> #Apollo</string>
+  <string name="share_track_using">Împărtășește melodia folosind:</string>
   <!-- ColorPicker -->
+  <string name="color_picker_title">Schemă culori</string>
+  <string name="current_color">Curent</string>
+  <string name="new_color">Nou</string>
   <!-- App widget -->
+  <string name="app_widget_large_alt">Apollo: 4x2 (alternativă)</string>
+  <string name="app_widget_recent">Apollo: recent ascultat</string>
   <!-- What keywords to use when shopping for Apollo themes -->
   <!-- Empty list / error messages -->
+  <string name="no_effects_for_you">Egalizatorul nu poate fi pornit.</string>
+  <string name="empty_music">Pentru a copia muzică din PC, folosește un cablu USB.</string>
+  <string name="empty_last_added">Melodiile adăugate în ultima lună vor fi prezente aici.</string>
+  <string name="empty_search">Niciun rezultat găsit</string>
+  <string name="empty_favorite">Melodiile marcate ca favorite vor apărea aici.</string>
+  <string name="empty_recent">Albumele ascultate vor apărea aici. Încearcă să asculți niște muzică.</string>
 </resources>
