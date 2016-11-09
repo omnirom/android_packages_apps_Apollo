@@ -16,19 +16,132 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Page titles -->
+  <string name="page_recent">최근 재생</string>
+  <string name="page_artists">아티스트</string>
+  <string name="page_albums">앨범</string>
+  <string name="page_songs">곡명</string>
+  <string name="page_playlists">재생 목록</string>
+  <string name="page_genres">장르</string>
   <!-- Option menu items -->
+  <string name="menu_settings">설정</string>
+  <string name="menu_search">검색</string>
+  <string name="menu_shuffle">전체 무작위 재생</string>
+  <string name="menu_play_all">모두 재생</string>
+  <string name="menu_sort_by">다음으로 정렬</string>
+  <string name="menu_shop">테마 보러가기</string>
+  <string name="menu_clear_recents">최근 재생 항목 비우기</string>
+  <string name="menu_clear_queue">대기열 비우기</string>
+  <string name="menu_save_queue">대기열 저장</string>
+  <string name="menu_share">공유</string>
+  <string name="menu_add_to_homescreen">홈 화면에 고정</string>
+  <string name="menu_equalizer">이퀄라이저</string>
+  <string name="menu_simple">단순하게</string>
+  <string name="menu_detailed">자세하게</string>
+  <string name="menu_grid">격자</string>
+  <string name="menu_view_as">다음으로 보기</string>
   <!-- Playlist items -->
+  <string name="add_to_playlist">재생 목록에 추가</string>
+  <string name="add_to_favorites">즐겨찾기에 추가</string>
+  <string name="add_to_queue">대기열에 추가</string>
+  <string name="remove_from_favorites">즐겨찾기에서 제거</string>
+  <string name="remove_from_recent">최근 재생 항목에서 제거</string>
+  <string name="remove_from_queue">대기열에서 제거</string>
   <!-- Sort orders -->
+  <string name="sort_order_entry_az">A-Z</string>
+  <string name="sort_order_entry_za">Z-A</string>
+  <string name="sort_order_entry_artist">아티스트</string>
+  <string name="sort_order_entry_album">앨범</string>
+  <string name="sort_order_entry_year">년도</string>
+  <string name="sort_order_entry_duration">길이</string>
+  <string name="sort_order_entry_date_added">추가된 날짜</string>
+  <string name="sort_order_entry_track_list">트랙 목록</string>
+  <string name="sort_order_entry_number_of_songs">곡 수</string>
+  <string name="sort_order_entry_number_of_albums">앨범 수</string>
+  <string name="sort_order_entry_filename">파일명</string>
   <!-- Default playlist names -->
   <!-- playlist_favorite used in voice search processing only -->
+  <string name="playlist_favorite">즐겨찾기</string>
+  <string name="playlist_favorites">즐겨찾기</string>
+  <string name="playlist_last_added">마지막으로 추가됨</string>
   <!-- AlertDialog items -->
+  <string name="new_playlist">새 재생 목록</string>
+  <string name="save">저장</string>
+  <string name="cancel">취소</string>
+  <string name="overwrite">덮어쓰기</string>
+  <string name="new_playlist_name_template">재생 목록 <xliff:g id="number">%d</xliff:g></string>
+  <string name="create_playlist_prompt">재생 목록 이름</string>
+  <string name="delete_dialog_title"><xliff:g id="item" example="album">%s</xliff:g> 삭제할까요?</string>
+  <string name="cannot_be_undone">되돌릴 수 없습니다</string>
+  <string name="delete_warning">캐시된 이미지 항목들이 영구적으로 삭제됩니다</string>
+  <string name="new_photo">갤러리에서 사진 선택</string>
+  <string name="google_search">구글 검색</string>
+  <string name="use_default">기본 사진 사용</string>
+  <string name="old_photo">예전 사진 사용</string>
   <!-- Context menu items -->
+  <string name="context_menu_play_selection">재생</string>
+  <string name="context_menu_play_next">다음 재생</string>
+  <string name="context_menu_more_by_artist">아티스트의 더 많은 항목</string>
+  <string name="context_menu_rename_playlist">이름 바꾸기</string>
+  <string name="context_menu_delete">삭제</string>
+  <string name="context_menu_fetch_album_art">앨범 아트 가져오기</string>
+  <string name="context_menu_fetch_artist_image">아티스트 이미지 가져오기</string>
+  <string name="context_menu_open_in_play_store">플레이 스토어에서 열기</string>
+  <string name="context_menu_remove_from_recent">최근 재생 항목에서 제거</string>
+  <string name="context_menu_use_as_ringtone">벨소리로 사용</string>
+  <string name="context_menu_remove_from_playlist">재생 목록에서 제거</string>
   <!-- Content descriptions -->
+  <string name="accessibility_play">재생</string>
+  <string name="accessibility_pause">일시정지</string>
+  <string name="accessibility_next">다음</string>
+  <string name="accessibility_prev">이전</string>
+  <string name="accessibility_shuffle">무작위로 섞기</string>
+  <string name="accessibility_shuffle_all">전체 무작위 재생</string>
+  <string name="accessibility_repeat">반복</string>
+  <string name="accessibility_repeat_all">모두 반복</string>
+  <string name="accessibility_repeat_one">한 곡 반복</string>
   <!-- Toast messages -->
+  <string name="pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> 항목이 홈 스크린에 추가되었습니다</string>
+  <string name="could_not_be_pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> 항목을 홈 스크린에 추가할 수 없습니다</string>
+  <string name="set_as_ringtone">\'<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\' 항목을 벨소리로 설정했습니다</string>
+  <string name="playlist_renamed">재생 목록의 이름을 바꿨습니다</string>
+  <string name="theme_set"><xliff:g id="name">%s</xliff:g> 항목이 테마로 설정되었습니다</string>
   <!-- Settings -->
+  <string name="settings_ui_category">인터페이스</string>
+  <string name="settings_storage_category">저장소</string>
+  <string name="settings_data_category">데이터</string>
+  <string name="settings_about_category">더 많은 정보</string>
+  <string name="settings_author_title">제작자</string>
+  <string name="settings_about_apollo">Apollo에 대해서</string>
+  <string name="settings_special_thanks">감사의 말씀</string>
+  <string name="settings_lopez_summary">오리지널 아이콘과 플레이 스토어 배너 디자인</string>
+  <string name="settings_jacek_summary">현재 아이콘</string>
+  <string name="settings_color_scheme_title">Apollo의 기본 색상 선택</string>
+  <string name="settings_color_scheme_summary">Apollo의 강조 색상 변경</string>
+  <string name="settings_theme_chooser_title">테마 선택기</string>
+  <string name="settings_delete_cache_title">캐시 삭제</string>
+  <string name="settings_delete_cache_summary">캐시된 모든 이미지 제거</string>
+  <string name="settings_download_only_on_wifi_title">Wi-Fi를 통해서만 다운로드</string>
+  <string name="settings_download_only_on_wifi_summary">모바일 데이터 사용량을 줄이기 위해 모바일 네트워크에서는 다운로드하지 않습니다</string>
+  <string name="settings_download_missing_artwork_title">누락된 앨범 아트 다운로드</string>
+  <string name="settings_download_artist_images_title">누락된 아티스트 이미지 다운로드</string>
+  <string name="settings_open_source_licenses">오픈 소스 라이센스</string>
+  <string name="settings_version_title">버전</string>
   <!-- Share Intent -->
+  <string name="now_listening_to">#재생중 <xliff:g id="title">%1$s</xliff:g>, 아티스트: <xliff:g id="artist">%2$s</xliff:g> #Apollo</string>
+  <string name="share_track_using">다음을 사용해서 트랙 공유:</string>
   <!-- ColorPicker -->
+  <string name="color_picker_title">색상</string>
+  <string name="current_color">현재</string>
+  <string name="new_color">새로운 항목</string>
   <!-- App widget -->
+  <string name="app_widget_large_alt">Apollo: 4×2 (대체)</string>
+  <string name="app_widget_recent">Apollo: 최근에 들은 항목</string>
   <!-- What keywords to use when shopping for Apollo themes -->
   <!-- Empty list / error messages -->
+  <string name="no_effects_for_you">이퀄라이저를 열 수 없습니다.</string>
+  <string name="empty_music">컴퓨터에서 기기로 음악을 복사하려면 USB 케이블을 사용하세요.</string>
+  <string name="empty_last_added">지난 달부터 지금까지 추가한 노래는 여기에 표시됩니다.</string>
+  <string name="empty_search">찾을 수 없습니다</string>
+  <string name="empty_favorite">즐겨찾기로 저장한 노래는 여기에 표시됩니다.</string>
+  <string name="empty_recent">들은 앨범은 여기에 표시됩니다. 음악을 재생해보세요.</string>
 </resources>

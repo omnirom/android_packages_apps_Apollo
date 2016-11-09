@@ -36,6 +36,9 @@
     <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> 首歌已加入播放清單。</item>
   </plurals>
   <!-- Toasts after removing song(s) from playlists -->
+  <plurals name="NNNtracksfromplaylist">
+    <item quantity="other"><xliff:g id="number"example="27"> %d </xliff:g> 首歌曲已從播放清單中刪除。</item>
+  </plurals>
   <!-- Toasts after adding song(s) to queue -->
   <plurals name="NNNtrackstoqueue">
     <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> 首歌已加入佇列。</item>

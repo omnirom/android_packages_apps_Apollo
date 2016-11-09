@@ -16,19 +16,81 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Page titles -->
+  <string name="page_recent">Terbaru</string>
+  <string name="page_artists">Artis</string>
+  <string name="page_albums">Album</string>
+  <string name="page_songs">Lagu</string>
+  <string name="page_playlists">Daftar Putar</string>
+  <string name="page_genres">Genre</string>
   <!-- Option menu items -->
+  <string name="menu_settings">Pengaturan</string>
+  <string name="menu_search">Cari</string>
+  <string name="menu_shuffle">Acak Semua</string>
+  <string name="menu_play_all">Mainkan semua</string>
+  <string name="menu_sort_by">Urutkan menurut</string>
+  <string name="menu_shop">Belanja tema</string>
+  <string name="menu_clear_recents">Hapus terbaru</string>
+  <string name="menu_clear_queue">Bersihkan antrian</string>
+  <string name="menu_save_queue">Simpan antrian</string>
+  <string name="menu_share">Bagikan</string>
+  <string name="menu_add_to_homescreen">Sematkan ke layar utama</string>
+  <string name="menu_equalizer">Equalizer</string>
+  <string name="menu_simple">Sederhana</string>
+  <string name="menu_detailed">Terperinci</string>
+  <string name="menu_grid">Grid</string>
+  <string name="menu_view_as">Lihat sebagai</string>
   <!-- Playlist items -->
+  <string name="add_to_playlist">Tambah ke Daftar Putar</string>
+  <string name="add_to_favorites">Tambahkan ke favorit</string>
+  <string name="add_to_queue">Tambahkan ke antrian</string>
+  <string name="remove_from_favorites">Hapus dari favorit</string>
+  <string name="remove_from_recent">Hapus dari yang sudah</string>
+  <string name="remove_from_queue">Hapus dari antrian</string>
   <!-- Sort orders -->
+  <string name="sort_order_entry_az">A-Z</string>
+  <string name="sort_order_entry_za">Z-A</string>
+  <string name="sort_order_entry_artist">Artis</string>
+  <string name="sort_order_entry_album">Album</string>
+  <string name="sort_order_entry_year">Tahun</string>
+  <string name="sort_order_entry_duration">Durasi</string>
+  <string name="sort_order_entry_date_added">Tanggal ditambahkan</string>
+  <string name="sort_order_entry_track_list">Daftar lagu</string>
+  <string name="sort_order_entry_number_of_songs">Jumlah lagu</string>
+  <string name="sort_order_entry_number_of_albums">Jumlah album</string>
+  <string name="sort_order_entry_filename">Nama Berkas</string>
   <!-- Default playlist names -->
   <!-- playlist_favorite used in voice search processing only -->
+  <string name="playlist_favorite">Favorit</string>
+  <string name="playlist_favorites">Favorit</string>
+  <string name="playlist_last_added">Terakhir ditambahkan</string>
   <!-- AlertDialog items -->
+  <string name="new_playlist">Daftar putar baru</string>
+  <string name="save">Simpan</string>
+  <string name="cancel">Batal</string>
+  <string name="overwrite">Timpa</string>
+  <string name="new_playlist_name_template">Daftar putar <xliff:g id="number">%d</xliff:g></string>
+  <string name="create_playlist_prompt">Nama daftar putar</string>
+  <string name="delete_dialog_title">Hapus <xliff:g id="item" example="album">%s</xliff:g>?</string>
+  <string name="cannot_be_undone">Ini tidak dapat dibatalkan</string>
   <!-- Context menu items -->
   <!-- Content descriptions -->
   <!-- Toast messages -->
   <!-- Settings -->
   <!-- Share Intent -->
+  <string name="now_listening_to">#NowPlaying <xliff:g id="title">%1$s </xliff:g> oleh <xliff:g id="artist">%2$s </xliff:g> #Apollo</string>
+  <string name="share_track_using">Bagikan lagu menggunakan:</string>
   <!-- ColorPicker -->
+  <string name="color_picker_title">Skema warna</string>
+  <string name="current_color">Saat ini</string>
+  <string name="new_color">Baru</string>
   <!-- App widget -->
+  <string name="app_widget_large_alt">Apollo: 4×2 (alternatif)</string>
+  <string name="app_widget_recent">Apollo: baru didengar</string>
   <!-- What keywords to use when shopping for Apollo themes -->
   <!-- Empty list / error messages -->
+  <string name="no_effects_for_you">Ekualiser tidak dapat dibuka.</string>
+  <string name="empty_music">Untuk menyalin musik dari komputer ke perangkat Anda, gunakan kabel USB.</string>
+  <string name="empty_last_added">Lagu-lagu yang telah Anda tambahkan selama satu bulan terakhir akan ditampilkan di sini.</string>
+  <string name="empty_search">Hasil pencarian tidak ditemukan</string>
+  <string name="empty_favorite">Lagu-lagu yang Anda Tandai sebagai favorit akan ditampilkan di sini.</string>
 </resources>

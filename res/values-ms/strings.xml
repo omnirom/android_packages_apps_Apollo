@@ -36,18 +36,112 @@
   <string name="menu_add_to_homescreen">Pin ke skrin utama</string>
   <string name="menu_equalizer">Equalizer</string>
   <string name="menu_simple">Mudah</string>
+  <string name="menu_detailed">Terperinci</string>
+  <string name="menu_grid">Grid</string>
+  <string name="menu_view_as">Lihat sebagai</string>
   <!-- Playlist items -->
+  <string name="add_to_playlist">Tambah ke senarai main</string>
+  <string name="add_to_favorites">Tambah ke kegemaran</string>
+  <string name="add_to_queue">Tambah ke giliran</string>
+  <string name="remove_from_favorites">Alih keluar daripada kegemaran</string>
+  <string name="remove_from_recent">Alih keluar dari terbaru</string>
+  <string name="remove_from_queue">Alih keluar dari giliran</string>
   <!-- Sort orders -->
+  <string name="sort_order_entry_az">A-Z</string>
+  <string name="sort_order_entry_za">Z-A</string>
+  <string name="sort_order_entry_artist">Artis</string>
+  <string name="sort_order_entry_album">Album</string>
+  <string name="sort_order_entry_year">Tahun</string>
+  <string name="sort_order_entry_duration">Tempoh</string>
+  <string name="sort_order_entry_date_added">Tarikh ditambah</string>
+  <string name="sort_order_entry_track_list">Senarai trek</string>
+  <string name="sort_order_entry_number_of_songs">Bilangan lagu</string>
+  <string name="sort_order_entry_number_of_albums">Bilangan album</string>
+  <string name="sort_order_entry_filename">Nama fail</string>
   <!-- Default playlist names -->
   <!-- playlist_favorite used in voice search processing only -->
+  <string name="playlist_favorite">Kegemaran</string>
+  <string name="playlist_favorites">Kegemaran</string>
+  <string name="playlist_last_added">Terkini ditambah</string>
   <!-- AlertDialog items -->
+  <string name="new_playlist">Senarai main baru</string>
+  <string name="save">Simpan</string>
+  <string name="cancel">Batal</string>
+  <string name="overwrite">Tulis ganti</string>
+  <string name="new_playlist_name_template">Senarai Main <xliff:g id="number">%d</xliff:g></string>
+  <string name="create_playlist_prompt">Nama senarai main</string>
+  <string name="delete_dialog_title">Padam <xliff:g id="item" example="album">%s</xliff:g>?</string>
+  <string name="cannot_be_undone">Ini tidak boleh dibatalkan</string>
+  <string name="delete_warning">Ini akan secara kekal memadam entri cache imej</string>
+  <string name="new_photo">Pilih foto dari Galeri</string>
+  <string name="google_search">Carian Google</string>
+  <string name="use_default">Guna foto asal</string>
+  <string name="old_photo">Gunakan foto lama</string>
   <!-- Context menu items -->
+  <string name="context_menu_play_selection">Main</string>
+  <string name="context_menu_play_next">Bermain nanti</string>
+  <string name="context_menu_more_by_artist">Lebih oleh artis</string>
+  <string name="context_menu_rename_playlist">Tukar Nama</string>
+  <string name="context_menu_delete">Padam</string>
+  <string name="context_menu_fetch_album_art">Kutip seni album</string>
+  <string name="context_menu_fetch_artist_image">Kutip gambar artis</string>
+  <string name="context_menu_open_in_play_store">Buka dalam Play Store</string>
+  <string name="context_menu_remove_from_recent">Alih keluar dari terbaru</string>
+  <string name="context_menu_use_as_ringtone">Gunakan sebagai nada dering</string>
+  <string name="context_menu_remove_from_playlist">Alih keluar dari senarai main</string>
   <!-- Content descriptions -->
+  <string name="accessibility_play">Main</string>
+  <string name="accessibility_pause">Jeda</string>
+  <string name="accessibility_next">Seterusnya</string>
+  <string name="accessibility_prev">Sebelumnya</string>
+  <string name="accessibility_shuffle">Rombak</string>
+  <string name="accessibility_shuffle_all">Rombak Semua</string>
+  <string name="accessibility_repeat">Ulang</string>
+  <string name="accessibility_repeat_all">Ulangi semua</string>
+  <string name="accessibility_repeat_one">Ulangi satu</string>
   <!-- Toast messages -->
+  <string name="pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> dipinkan ke skrin utama anda</string>
+  <string name="could_not_be_pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> tidak dapat dipinkan ke skrin utama anda</string>
+  <string name="set_as_ringtone">\'<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\' ditetapkan sebagai nada dering</string>
+  <string name="playlist_renamed">Senarai main dinamakan semula</string>
+  <string name="theme_set"><xliff:g id="name">%s</xliff:g> ditetapkan sebagai tema</string>
   <!-- Settings -->
+  <string name="settings_ui_category">Antara muka</string>
+  <string name="settings_storage_category">Storan</string>
+  <string name="settings_data_category">Data</string>
+  <string name="settings_about_category">Tentang</string>
+  <string name="settings_author_title">Penulis</string>
+  <string name="settings_about_apollo">Tentang Apollo</string>
+  <string name="settings_special_thanks">Terima kasih khas</string>
+  <string name="settings_lopez_summary">Icon asal dan reka bentuk banner Play Store</string>
+  <string name="settings_jacek_summary">Ikon semasa</string>
+  <string name="settings_color_scheme_title">Pilih skim warna asal Apollo</string>
+  <string name="settings_color_scheme_summary">Perubahan warna aksen dalam Apollo</string>
+  <string name="settings_theme_chooser_title">Pemilih tema</string>
+  <string name="settings_delete_cache_title">Padam cache</string>
+  <string name="settings_delete_cache_summary">Alih keluar semua imej cache</string>
+  <string name="settings_download_only_on_wifi_title">Muat turun melalui Wi-Fi sahaja</string>
+  <string name="settings_download_only_on_wifi_summary">Untuk mengurangkan caj pembawa, jangan muat turun melalui rangkaian mudah alih</string>
+  <string name="settings_download_missing_artwork_title">Muat turun seni album yang hilang</string>
+  <string name="settings_download_artist_images_title">Muat turun artis imej yang hilang</string>
+  <string name="settings_open_source_licenses">Lesen sumber terbuka</string>
+  <string name="settings_version_title">Nombor versi</string>
   <!-- Share Intent -->
+  <string name="now_listening_to">#NowPlaying <xliff:g id="title">%1$s</xliff:g> oleh <xliff:g id="artist">%2$s</xliff:g> #Apollo</string>
+  <string name="share_track_using">Kongsi trek menggunakan:</string>
   <!-- ColorPicker -->
+  <string name="color_picker_title">Skim warna</string>
+  <string name="current_color">Semasa</string>
+  <string name="new_color">Baru</string>
   <!-- App widget -->
+  <string name="app_widget_large_alt">Apollo: 4×2 (alternatif)</string>
+  <string name="app_widget_recent">Apollo: baru-baru mendengar</string>
   <!-- What keywords to use when shopping for Apollo themes -->
   <!-- Empty list / error messages -->
+  <string name="no_effects_for_you">Equalizer tidak dapat dibuka.</string>
+  <string name="empty_music">Untuk menyalin muzik dari komputer anda ke peranti anda, gunakan kabel USB.</string>
+  <string name="empty_last_added">Lagu yang anda telah menambah sepanjang bulan lepas akan dipaparkan di sini.</string>
+  <string name="empty_search">Tiada hasil carian ditemui</string>
+  <string name="empty_favorite">Lagu-lagu yang anda tandakan sebagai kegemaran akan ditunjukkan di sini.</string>
+  <string name="empty_recent">Album yang anda telah mendengar akan muncul di sini. Cuba mainkan muzik.</string>
 </resources>

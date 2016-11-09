@@ -41,6 +41,10 @@
     <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> canciones se añadieron a la lista.</item>
   </plurals>
   <!-- Toasts after removing song(s) from playlists -->
+  <plurals name="NNNtracksfromplaylist">
+    <item quantity="one"><xliff:g id="number" example="1">%d</xliff:g> canción eliminada de la lista de reproducción.</item>
+    <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> canciones eliminadas de la lista de reproducción.</item>
+  </plurals>
   <!-- Toasts after adding song(s) to queue -->
   <plurals name="NNNtrackstoqueue">
     <item quantity="one">1 canción se añadió a la cola.</item>
