@@ -102,6 +102,7 @@
   <!-- Toast messages -->
   <string name="pinned_to_home_screen"><xliff:g id="name">%s </xliff:g> הוצמד למסך הבית</string>
   <string name="could_not_be_pinned_to_home_screen"><xliff:g id="name">%s </xliff:g> לא ניתן להצמיד למסך הבית</string>
+  <string name="set_as_ringtone">\"<xliff:g id="name" example="Alarm Bell">%s </xliff:g>\" הגדר כרינגטון</string>
   <string name="playlist_renamed">שם רשימת ההשמעה שונה</string>
   <string name="theme_set"><xliff:g id="name">%s </xliff:g> הגדר כערכת נושא</string>
   <!-- Settings -->
