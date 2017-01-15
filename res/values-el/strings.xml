@@ -88,6 +88,7 @@
   <string name="context_menu_open_in_play_store">Άνοιγμα στο Play Store</string>
   <string name="context_menu_remove_from_recent">Αφαίρεση από πρόσφατα</string>
   <string name="context_menu_use_as_ringtone">Χρήση ως ήχο κλήσης</string>
+  <string name="context_menu_remove_from_playlist">Αφαίρεση από τη λίστα αναπαραγωγής</string>
   <!-- Content descriptions -->
   <string name="accessibility_play">Αναπαραγωγή</string>
   <string name="accessibility_pause">Παύση</string>
@@ -113,6 +114,7 @@
   <string name="settings_about_apollo">Περί Apollo</string>
   <string name="settings_special_thanks">Θερμές ευχαριστίες</string>
   <string name="settings_lopez_summary">Εικονίδια και σχεδιασμός Play Store banner</string>
+  <string name="settings_jacek_summary">Τρέχον εικονίδιο</string>
   <string name="settings_color_scheme_title">Επιλογή προεπιλεγμένου συνδυασμόυ χρωμάτων</string>
   <string name="settings_color_scheme_summary">Αλλαγή τόνου χρώματος του Apollo</string>
   <string name="settings_theme_chooser_title">Θέματα</string>

@@ -57,6 +57,7 @@
   <string name="sort_order_entry_track_list">曲目列表</string>
   <string name="sort_order_entry_number_of_songs">樂曲數量</string>
   <string name="sort_order_entry_number_of_albums">專輯數量</string>
+  <string name="sort_order_entry_filename">檔案名稱</string>
   <!-- Default playlist names -->
   <!-- playlist_favorite used in voice search processing only -->
   <string name="playlist_favorite">我的最愛</string>
@@ -87,6 +88,7 @@
   <string name="context_menu_open_in_play_store">在Play商店中開啟</string>
   <string name="context_menu_remove_from_recent">從最近撥放移除</string>
   <string name="context_menu_use_as_ringtone">做為鈴聲</string>
+  <string name="context_menu_remove_from_playlist">從播放清單中移除</string>
   <!-- Content descriptions -->
   <string name="accessibility_play">播放</string>
   <string name="accessibility_pause">暫停</string>
@@ -112,6 +114,7 @@
   <string name="settings_about_apollo">關於 Apollo</string>
   <string name="settings_special_thanks">特別感謝</string>
   <string name="settings_lopez_summary">圖示與 Play 商店的橫額設計</string>
+  <string name="settings_jacek_summary">目前圖示</string>
   <string name="settings_color_scheme_title">選擇 Apollo 預設配色方案</string>
   <string name="settings_color_scheme_summary">改變 Apollo 中的強調色</string>
   <string name="settings_theme_chooser_title">主題選擇器</string>

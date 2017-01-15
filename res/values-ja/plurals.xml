@@ -36,6 +36,9 @@
     <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> 個の曲をプレイリストに追加しました。</item>
   </plurals>
   <!-- Toasts after removing song(s) from playlists -->
+  <plurals name="NNNtracksfromplaylist">
+    <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> 個の曲をプレイリストから削除しました。</item>
+  </plurals>
   <!-- Toasts after adding song(s) to queue -->
   <plurals name="NNNtrackstoqueue">
     <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> 個の曲をキューに追加しました。</item>

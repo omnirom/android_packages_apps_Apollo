@@ -57,6 +57,7 @@
   <string name="sort_order_entry_track_list">Liste over spor</string>
   <string name="sort_order_entry_number_of_songs">Antall sanger</string>
   <string name="sort_order_entry_number_of_albums">Antall album</string>
+  <string name="sort_order_entry_filename">Filnavn</string>
   <!-- Default playlist names -->
   <!-- playlist_favorite used in voice search processing only -->
   <string name="playlist_favorite">Favoritt</string>
@@ -87,6 +88,7 @@
   <string name="context_menu_open_in_play_store">Åpne i Google Play</string>
   <string name="context_menu_remove_from_recent">Fjern fra nylige</string>
   <string name="context_menu_use_as_ringtone">Bruk som ringetone</string>
+  <string name="context_menu_remove_from_playlist">Fjern fra spilleliste</string>
   <!-- Content descriptions -->
   <string name="accessibility_play">Spill</string>
   <string name="accessibility_pause">Pause</string>
@@ -112,6 +114,7 @@
   <string name="settings_about_apollo">Om Apollo</string>
   <string name="settings_special_thanks">Spesielt takk til</string>
   <string name="settings_lopez_summary">Ikon og Google Play banner design</string>
+  <string name="settings_jacek_summary">Nåværende ikon</string>
   <string name="settings_color_scheme_title">Velg Apollo\'s standard fargevalg</string>
   <string name="settings_color_scheme_summary">Endre hovedfargen i Apollo</string>
   <string name="settings_theme_chooser_title">Temavelger</string>
