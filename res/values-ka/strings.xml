@@ -16,19 +16,132 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Page titles -->
+  <string name="page_recent">ბოლო</string>
+  <string name="page_artists">მომღერლები</string>
+  <string name="page_albums">ალბომები</string>
+  <string name="page_songs">სიმღერები</string>
+  <string name="page_playlists">დაკვრის სიები</string>
+  <string name="page_genres">ჟანრები</string>
   <!-- Option menu items -->
+  <string name="menu_settings">პარამეტრები</string>
+  <string name="menu_search">ძიები</string>
+  <string name="menu_shuffle">ყველას არევა</string>
+  <string name="menu_play_all">ყველას დაკვრა</string>
+  <string name="menu_sort_by">დალაგება</string>
+  <string name="menu_shop">თემების შეძენა</string>
+  <string name="menu_clear_recents">ბოლოების გასუფთავება</string>
+  <string name="menu_clear_queue">რიგის გასუფთავება</string>
+  <string name="menu_save_queue">რიგის შენახვა</string>
+  <string name="menu_share">გაზიარება</string>
+  <string name="menu_add_to_homescreen">სახლის ეკრანზე მიმაგრება</string>
+  <string name="menu_equalizer">ეკვალაიზერი</string>
+  <string name="menu_simple">მარტივი</string>
+  <string name="menu_detailed">დეტალური</string>
+  <string name="menu_grid">ბადე</string>
+  <string name="menu_view_as">ნახვა როგორც</string>
   <!-- Playlist items -->
+  <string name="add_to_playlist">დამატება დაკვრის სიაში</string>
+  <string name="add_to_favorites">დამატება რჩეულებში</string>
+  <string name="add_to_queue">დამატება რიგში</string>
+  <string name="remove_from_favorites">წაშლა რჩეულებიდან</string>
+  <string name="remove_from_recent">წაშლა ბოლოებიდან</string>
+  <string name="remove_from_queue">წაშლა რიგიდან</string>
   <!-- Sort orders -->
+  <string name="sort_order_entry_az">ა-ჰ</string>
+  <string name="sort_order_entry_za">ჰ-ა</string>
+  <string name="sort_order_entry_artist">მომღერალი</string>
+  <string name="sort_order_entry_album">ალბომი</string>
+  <string name="sort_order_entry_year">წელი</string>
+  <string name="sort_order_entry_duration">ხანგრძლიობა</string>
+  <string name="sort_order_entry_date_added">დამატების თარიღი</string>
+  <string name="sort_order_entry_track_list">სიმღერების სია</string>
+  <string name="sort_order_entry_number_of_songs">სიმღერების რაოდენობი</string>
+  <string name="sort_order_entry_number_of_albums">ალბომების რაოდენობა</string>
+  <string name="sort_order_entry_filename">ფაილის სახელი</string>
   <!-- Default playlist names -->
   <!-- playlist_favorite used in voice search processing only -->
+  <string name="playlist_favorite">რჩეული</string>
+  <string name="playlist_favorites">რჩეულები</string>
+  <string name="playlist_last_added">ბოლოს დამატებული</string>
   <!-- AlertDialog items -->
+  <string name="new_playlist">ახალი დაკვრის სია</string>
+  <string name="save">შენახვა</string>
+  <string name="cancel">გაუქმება</string>
+  <string name="overwrite">გადაწერა</string>
+  <string name="new_playlist_name_template">დაკვრის სია <xliff:g id="number">%d</xliff:g></string>
+  <string name="create_playlist_prompt">დაკვრის სიის სახელი</string>
+  <string name="delete_dialog_title">გსურთ <xliff:g id="item" example="album">%s</xliff:g>-ს წაშლა?</string>
+  <string name="cannot_be_undone">ამის გაუქმება არ შეიძლება</string>
+  <string name="delete_warning">ეს სამუდამოდ წაშლის ქეშირებული სურათების ჩანაწერებს</string>
+  <string name="new_photo">აირჩიეთ სურათი გალერეიდან</string>
+  <string name="google_search">Google ძიება</string>
+  <string name="use_default">ნაგულისხმევი სურათის გამოყენება</string>
+  <string name="old_photo">ძველი სურათის გამოყენება</string>
   <!-- Context menu items -->
+  <string name="context_menu_play_selection">დაკვრა</string>
+  <string name="context_menu_play_next">შემდეგის დაკვრა</string>
+  <string name="context_menu_more_by_artist">მეტი მომღერლისგან</string>
+  <string name="context_menu_rename_playlist">სახელის შეცვლა</string>
+  <string name="context_menu_delete">წაშლა</string>
+  <string name="context_menu_fetch_album_art">ალბომის სურათის მიღება</string>
+  <string name="context_menu_fetch_artist_image">მომღერლის სურათის მიღება</string>
+  <string name="context_menu_open_in_play_store">Play მაღაზიაში გახსნა</string>
+  <string name="context_menu_remove_from_recent">წაშლა ბოლოებიდან</string>
+  <string name="context_menu_use_as_ringtone">რეკვის ტონად გამოყენება</string>
+  <string name="context_menu_remove_from_playlist">დაკვრის სიიდან წაშლა</string>
   <!-- Content descriptions -->
+  <string name="accessibility_play">დაკვრა</string>
+  <string name="accessibility_pause">შეჩერება</string>
+  <string name="accessibility_next">შემდეგი</string>
+  <string name="accessibility_prev">წინა</string>
+  <string name="accessibility_shuffle">არევა</string>
+  <string name="accessibility_shuffle_all">ყველას არევა</string>
+  <string name="accessibility_repeat">გამეორება</string>
+  <string name="accessibility_repeat_all">ყველას გამეორება</string>
+  <string name="accessibility_repeat_one">ერთის გამეორება</string>
   <!-- Toast messages -->
+  <string name="pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> იქნა მიმაგრებული თქვენს სახლის ეკრანზე</string>
+  <string name="could_not_be_pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> მიმაგრება თქვენს სახლის ეკრანზე ვერ მოხერხდა</string>
+  <string name="set_as_ringtone">\'<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\' იქნა დაყენებული, როგორც რეკვის ტონი</string>
+  <string name="playlist_renamed">დაკვრის სიის სახელი შეიცვალა</string>
+  <string name="theme_set"><xliff:g id="name">%s</xliff:g> იქნა დაყენებული, როგორც თემა</string>
   <!-- Settings -->
+  <string name="settings_ui_category">ინტერფეისი</string>
+  <string name="settings_storage_category">მეხსიერება</string>
+  <string name="settings_data_category">მონაცემები</string>
+  <string name="settings_about_category">შესახებ</string>
+  <string name="settings_author_title">ავტორი</string>
+  <string name="settings_about_apollo">Apollo-ს შესახებ</string>
+  <string name="settings_special_thanks">განსაკუთრებული მადლობა</string>
+  <string name="settings_lopez_summary">ორიგინალური იარლიყი და Play მაღაზიის ბანერის დიზაინი</string>
+  <string name="settings_jacek_summary">მიმდინარე იარლიყი</string>
+  <string name="settings_color_scheme_title">აირჩიეთ Apollo-ს ნაგულისხმევი ფერების სქემა</string>
+  <string name="settings_color_scheme_summary">შეცვალეთ ტონის ფერი Apollo-ში</string>
+  <string name="settings_theme_chooser_title">თემების ამომრჩეველი</string>
+  <string name="settings_delete_cache_title">ქეშის წაშლა</string>
+  <string name="settings_delete_cache_summary">ყველა ქეშირებული სურათის წაშლა</string>
+  <string name="settings_download_only_on_wifi_title">გადმოწერა მხოლოდ Wi-Fi-თ</string>
+  <string name="settings_download_only_on_wifi_summary">ოპერატორის ხარჯების შესამცირებლად, არ გადმოიწეროთ მობილური ქსელებით</string>
+  <string name="settings_download_missing_artwork_title">მიმდინარეობს გამოტოვებული ალბომის სურათების გადმოწერა</string>
+  <string name="settings_download_artist_images_title">მიმდინარეობს გამოტოვებული მომღერლების სურათების გადმოწერა</string>
+  <string name="settings_open_source_licenses">ღია წყაროს ლიცენზიები</string>
+  <string name="settings_version_title">ვერსიის ნომერი</string>
   <!-- Share Intent -->
+  <string name="now_listening_to">#უკრავს <xliff:g id="title">%1$s</xliff:g> <xliff:g id="artist">%2$s</xliff:g>-ს მიერ #Apollo</string>
+  <string name="share_track_using">სიმღერის გაზიარება:</string>
   <!-- ColorPicker -->
+  <string name="color_picker_title">ფერების სქემა</string>
+  <string name="current_color">მიმდინარე</string>
+  <string name="new_color">ხალი</string>
   <!-- App widget -->
+  <string name="app_widget_large_alt">Apollo: 4×2 (ალტერნატიული)</string>
+  <string name="app_widget_recent">Apollo: ბოლოს მოსმენილი</string>
   <!-- What keywords to use when shopping for Apollo themes -->
   <!-- Empty list / error messages -->
+  <string name="no_effects_for_you">ეკვალაიზერის გახსნა ვერ მოხერხდა.</string>
+  <string name="empty_music">მუსიკი დასაკოპირებლად თქვენი კომპიუტერიდან თქვენს მოწყობილობაზე, გამოიყენეთ USB კაბელი.</string>
+  <string name="empty_last_added">სიმღერება, რომლებიც თქვენ დაამატეთ ბოლო თვის განმავლობაშ, იქნება ნაჩვენები აქ.</string>
+  <string name="empty_search">ძიების შედეგები ვერ მოიძებნა</string>
+  <string name="empty_favorite">სიმღერები, რომლებსაც თქვენ აღნიშნვათ რჩეულებად, იქნება ნაჩვენები აქ.</string>
+  <string name="empty_recent">ალბომი, რომლებსაც თქვენ მოუსმინეთ, გამოჩნდება აქ. სცადეთ რამე მუსიკის დაკვრა.</string>
 </resources>

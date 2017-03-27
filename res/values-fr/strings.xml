@@ -88,7 +88,7 @@
   <string name="context_menu_open_in_play_store">Ouvrir dans le Play Store</string>
   <string name="context_menu_remove_from_recent">Supprimer des récents</string>
   <string name="context_menu_use_as_ringtone">Utiliser comme sonnerie</string>
-  <string name="context_menu_remove_from_playlist">Retirer de la liste</string>
+  <string name="context_menu_remove_from_playlist">Retirer de la liste de lecture</string>
   <!-- Content descriptions -->
   <string name="accessibility_play">Lecture</string>
   <string name="accessibility_pause">Pause</string>
@@ -98,13 +98,13 @@
   <string name="accessibility_shuffle_all">Tout aléatoire</string>
   <string name="accessibility_repeat">Répéter</string>
   <string name="accessibility_repeat_all">Répéter tout</string>
-  <string name="accessibility_repeat_one">Répéter un</string>
+  <string name="accessibility_repeat_one">Répéter une fois</string>
   <!-- Toast messages -->
   <string name="pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> épinglé à votre écran d\'accueil</string>
   <string name="could_not_be_pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> ne peut pas être épinglé à votre écran d\'accueil</string>
-  <string name="set_as_ringtone">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" défini comme sonnerie</string>
-  <string name="playlist_renamed">Liste renommée</string>
-  <string name="theme_set"><xliff:g id="name">%s</xliff:g> défini comme thème</string>
+  <string name="set_as_ringtone">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" définir comme sonnerie</string>
+  <string name="playlist_renamed">Liste de lecture renommée</string>
+  <string name="theme_set"><xliff:g id="name">%s</xliff:g> définir comme thème</string>
   <!-- Settings -->
   <string name="settings_ui_category">Interface</string>
   <string name="settings_storage_category">Stockage</string>
@@ -114,7 +114,7 @@
   <string name="settings_about_apollo">À propos d\'Apollo</string>
   <string name="settings_special_thanks">Remerciements</string>
   <string name="settings_lopez_summary">Design de l\'icône et de la bannière du Play Store</string>
-  <string name="settings_jacek_summary">Icône acuelle</string>
+  <string name="settings_jacek_summary">Icône actuelle</string>
   <string name="settings_color_scheme_title">Charte de couleur</string>
   <string name="settings_color_scheme_summary">Choisir la couleur dominante par défaut d\'Apollo</string>
   <string name="settings_theme_chooser_title">Sélecteur de thèmes</string>
@@ -131,7 +131,7 @@
   <string name="share_track_using">Partager le titre via\u00A0:</string>
   <!-- ColorPicker -->
   <string name="color_picker_title">Charte de couleur</string>
-  <string name="current_color">Courante</string>
+  <string name="current_color">Actuelle</string>
   <string name="new_color">Nouvelle</string>
   <!-- App widget -->
   <string name="app_widget_large_alt">Apollo: 4x2 (Alternatif)</string>
